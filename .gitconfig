@@ -11,6 +11,7 @@
 	cm = commit -am\"[refactor] code mort\"
 	duplication = commit -am\"[refactor] code mort : duplication\"
 	format = commit -am\"[refactor] format\"
+	rename = commit -am\"[refactor] rename\"
 	st = status --short
 	co = checkout
 	br = branch -a --verbose
