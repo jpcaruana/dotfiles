@@ -1,0 +1,32 @@
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	interactive = auto
+[user]
+	name = Jean-Philippe CARUANA
+	email = jp@barreverte.fr
+[alias]
+	last = cat-file commit HEAD
+	cm = commit -am\"[refactor] code mort\"
+	duplication = commit -am\"[refactor] code mort : duplication\"
+	format = commit -am\"[refactor] format\"
+	st = status --short
+	co = checkout
+	br = branch -a --verbose
+	rb = rebase
+	rbi = rebase --interactive
+	pretty-log = log --oneline --date-order --graph --all --decorate
+	topo-log = log --oneline --graph --all --decorate
+	lp = log -p
+	spull = !git-svn fetch && git-svn rebase
+	spush = !git-svn dcommit
+	master-push = push origin master
+	master-pull = pull origin master
+	k = !gitk
+	update-remote = !git fetch upstream && git merge upstream/trunk
+	oops = commit --amend --all -C HEAD
+	unstage = reset HEAD
+	uncommit = reset --soft HEAD^
+[core]
+	editor = vim
