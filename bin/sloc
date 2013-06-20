@@ -1,0 +1,6 @@
+dossier=/tmp/sloc
+if [ ! -e $dossier ]; then
+	echo " * je cree le repertoire de travail $dossier ..."
+	mkdir -p $dossier
+fi
+sloccount --datadir $dossier --duplicates --autogen --crossdups --wide --addlangall $1
