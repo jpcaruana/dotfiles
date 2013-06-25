@@ -17,13 +17,9 @@
 	br = branch -a --verbose
 	rb = rebase
 	rbi = rebase --interactive
-	pretty-log = log --oneline --date-order --graph --all --decorate
 	topo-log = log --oneline --graph --all --decorate
-	lp = log -p
 	spull = !git-svn fetch && git-svn rebase
 	spush = !git-svn dcommit
-	master-push = push origin master
-	master-pull = pull origin master
 	k = !gitk
 	update-remote = !git fetch upstream && git merge upstream/trunk
 	oops = commit --amend --all -C HEAD
