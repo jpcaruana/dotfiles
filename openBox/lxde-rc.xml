@@ -294,7 +294,7 @@ desktops.  Set this to 0 to disable the popup. -->
         </keybind>
         <keybind key="C-A-XF86MyComputer"> <!-- touche dsktp -->
             <action name="Execute">
-                <execute>source ~/.bash_aliases ; hibernate</execute>
+                <execute>~/bin/hibernate.sh</execute>
             </action>
         </keybind>
 
