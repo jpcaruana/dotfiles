@@ -1,0 +1,9 @@
+poub=/tmp/poub
+if [ ! -e $poub ]; then
+	echo " * je cree le repertoire de travail $poub ..."
+	mkdir -p $poub
+fi
+
+for fichier in "$1" ; do
+	mv -f "$fichier" $poub
+done
