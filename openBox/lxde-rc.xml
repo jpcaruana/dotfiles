@@ -301,7 +301,7 @@ desktops.  Set this to 0 to disable the popup. -->
         <!--keybindings for LXPanel -->
         <keybind key="W-r">
             <action name="Execute">
-                <command>lxpanelctl run</command>
+                <command>gmrun</command>
             </action>
         </keybind>
         <keybind key="A-F2">
