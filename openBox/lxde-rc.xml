@@ -282,11 +282,6 @@ desktops.  Set this to 0 to disable the popup. -->
                 <command>galculator</command>
             </action>
         </keybind>
-        <keybind key="XF86MyComputer">
-            <action name="Execute">
-                <command>thunar</command>
-            </action>
-        </keybind>
         <keybind key="XF86Terminal">
             <action name="Execute">
                 <command>gnome-terminal</command>
@@ -297,9 +292,9 @@ desktops.  Set this to 0 to disable the popup. -->
                 <execute>xscreensaver-command -lock</execute>
             </action>
         </keybind>
-        <keybind key="C-A-XF86Terminal">
+        <keybind key="C-A-XF86MyComputer"> <!-- touche dsktp -->
             <action name="Execute">
-                <execute>hibernate</execute>
+                <execute>source ~/.bash_aliases ; hibernate</execute>
             </action>
         </keybind>
 
