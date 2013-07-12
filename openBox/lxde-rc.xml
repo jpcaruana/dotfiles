@@ -318,6 +318,8 @@ desktops.  Set this to 0 to disable the popup. -->
             <action name="Execute">
                 <command>lxpanelctl menu</command>
             </action>
+        </keybind><keybind key="W-F11">
+            <action name="Reconfigure"/>
         </keybind>
 <!--        <keybind key="F11">
             <action name="ToggleFullscreen"/>
