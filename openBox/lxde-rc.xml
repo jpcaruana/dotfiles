@@ -292,7 +292,7 @@ desktops.  Set this to 0 to disable the popup. -->
                 <execute>xscreensaver-command -lock</execute>
             </action>
         </keybind>
-        <keybind key="C-A-XF86MyComputer"> <!-- touche dsktp -->
+        <keybind key="C-A-s"> <!-- touche dsktp -->
             <action name="Execute">
                 <execute>~/bin/hibernate.sh</execute>
             </action>
