@@ -22,6 +22,8 @@
 	prompt = false
 [status]
 	submoduleSummary = true
+[push]
+	default = simple
 [alias]
 	last = cat-file commit HEAD
 	cm = commit -am\"[refactor] code mort\"
