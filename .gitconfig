@@ -1,11 +1,27 @@
-[color]
-	branch = auto
-	diff = auto
-	status = auto
-	interactive = auto
 [user]
 	name = Jean-Philippe CARUANA
 	email = jp@barreverte.fr
+[color]
+	ui = auto
+	interactive = auto
+[core]
+	editor = vim
+	whitespace = -trailing-space
+[diff]
+	mnemonicPrefix = true
+	wordRegex = .
+[grep]
+	extendedRegexp = true
+[log]
+	abbrevCommit = true
+[merge]
+	conflictStyle = diff3
+[mergetool]
+	keepBackup = false
+	keepTemporaries = false
+	prompt = false
+[status]
+	submoduleSummary = true
 [alias]
 	last = cat-file commit HEAD
 	cm = commit -am\"[refactor] code mort\"
@@ -25,5 +41,3 @@
 	oops = commit --amend --all -C HEAD
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
-[core]
-	editor = vim
