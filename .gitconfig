@@ -1,6 +1,6 @@
 [user]
 	name = Jean-Philippe CARUANA
-	email = jp@barreverte.fr
+	email = jp@target2sell.com
 [color]
 	ui = auto
 	interactive = auto
@@ -36,10 +36,7 @@
 	rb = rebase
 	rbi = rebase --interactive
 	topo-log = log --oneline --graph --all --decorate
-	spull = !git-svn fetch && git-svn rebase
-	spush = !git-svn dcommit
 	k = !gitk
-	update-remote = !git fetch upstream && git merge upstream/trunk
 	oops = commit --amend --all -C HEAD
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
