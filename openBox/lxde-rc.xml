@@ -297,6 +297,11 @@ desktops.  Set this to 0 to disable the popup. -->
                 <execute>~/bin/hibernate.sh</execute>
             </action>
         </keybind>
+        <keybind key="A-t">
+            <action name="Execute">
+                <command>gnome-terminal</command>
+            </action>
+        </keybind>
 
         <!--keybindings for LXPanel -->
         <keybind key="W-r">
