@@ -36,6 +36,7 @@
 	rb = rebase
 	rbi = rebase --interactive
 	topo-log = log --oneline --graph --all --decorate
+	topo-log-branch = log --oneline --graph --decorate
 	k = !gitk
 	oops = commit --amend --all -C HEAD
 	unstage = reset HEAD
