@@ -14,12 +14,6 @@
 	extendedRegexp = true
 [log]
 	abbrevCommit = true
-[merge]
-	conflictStyle = diff3
-[mergetool]
-	keepBackup = false
-	keepTemporaries = false
-	prompt = false
 [status]
 	submoduleSummary = true
 [push]
@@ -41,3 +35,11 @@
 	oops = commit --amend --all -C HEAD
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
+	count = shortlog -s -n
+[mergetool]
+	keepBackup = false
+	keepTemporaries = false
+[mergetool "p4merge"]
+	cmd = p4merge $BASE $LOCAL $REMOTE $MERGED
+[merge]
+	tool = p4merge
