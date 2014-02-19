@@ -2,3 +2,6 @@ DVORAK=`xinput list | grep TypeMatrix | grep -v pointer | sed 's/.*id=\([0-9]*\)
 AZERTY=`xinput list | grep XTEST | grep -v pointer | sed 's/.*id=\([0-9]*\).*/\1/'`
 setxkbmap -device $DVORAK dvorak -option compose:ralt
 setxkbmap -device $AZERTY fr -option ""
+
+#On mappe la touche 'mail' sur insert :
+xmodmap -e 'keycode 163=Insert'
