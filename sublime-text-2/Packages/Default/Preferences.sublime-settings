@@ -98,10 +98,10 @@
     "draw_minimap_border": false,
 
     // If enabled, will highlight any line with a caret
-    "highlight_line": false,
+    "highlight_line": true,
 
     // Valid values are "smooth", "phase", "blink", "wide" and "solid".
-    "caret_style": "smooth",
+    "caret_style": "phase",
 
     // Set to false to disable underlining the brackets surrounding the caret
     "match_brackets": true,
@@ -120,7 +120,7 @@
 
     // Set to false to not highlight angle brackets. This only takes effect if
     // match_brackets is true
-    "match_brackets_angle": false,
+    "match_brackets_angle": true,
 
     // Enable visualization of the matching tag in HTML and XML
     "match_tags": true,
@@ -137,7 +137,7 @@
     // Set to false to disable scrolling past the end of the buffer.
     // On OS X, this value is overridden in the platform specific settings, so
     // you'll need to place this line in your user settings to override it.
-    "scroll_past_end": true,
+    "scroll_past_end": false,
 
     // This controls what happens when pressing up or down when on the first
     // or last line.
@@ -158,22 +158,22 @@
     // Controls how the indent guides are drawn, valid options are
     // "draw_normal" and "draw_active". draw_active will draw the indent
     // guides containing the caret in a different color.
-    "indent_guide_options": ["draw_normal"],
+    "indent_guide_options": ["draw_active"],
 
     // Set to true to removing trailing white space on save
-    "trim_trailing_white_space_on_save": false,
+    "trim_trailing_white_space_on_save": true,
 
     // Set to true to ensure the last line of the file ends in a newline
     // character when saving
-    "ensure_newline_at_eof_on_save": false,
+    "ensure_newline_at_eof_on_save": true,
 
     // Set to true to automatically save files when switching to a different file
     // or application
-    "save_on_focus_lost": false,
+    "save_on_focus_lost": true,
 
     // The encoding to use when the encoding can't be determined automatically.
     // ASCII, UTF-8 and UTF-16 encodings will be automatically detected.
-    "fallback_encoding": "Western (Windows 1252)",
+    "fallback_encoding": "UTF-8",
 
     // Encoding used when saving new files, and files opened with an undefined
     // encoding (e.g., plain ascii files). If a file is opened with a specific
@@ -188,7 +188,7 @@
     // Determines what character(s) are used to terminate each line in new files.
     // Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and
     // 'unix' (LF only).
-    "default_line_ending": "system",
+    "default_line_ending": "unix",
 
     // When enabled, pressing tab will insert the best matching completion.
     // When disabled, tab will only trigger snippets or insert a tab.
@@ -215,18 +215,18 @@
     // This setting can be used to make it complete on tab instead.
     // Completing on tab is generally a superior option, as it removes
     // ambiguity between committing the completion and inserting a newline.
-    "auto_complete_commit_on_tab": false,
+    "auto_complete_commit_on_tab": true,
 
     // Controls if auto complete is shown when snippet fields are active.
     // Only relevant if auto_complete_commit_on_tab is true.
-    "auto_complete_with_fields": false,
+    "auto_complete_with_fields": true,
 
     // By default, shift+tab will only unindent if the selection spans
     // multiple lines. When pressing shift+tab at other times, it'll insert a
     // tab character - this allows tabs to be inserted when tab_completion is
     // enabled. Set this to true to make shift+tab always unindent, instead of
     // inserting tabs.
-    "shift_tab_unindent": false,
+    "shift_tab_unindent": true,
 
     // If true, the copy and cut commands will operate on the current line
     // when the selection is empty, rather than doing nothing.
@@ -240,7 +240,7 @@
 
     // When drag_text is enabled, clicking on selected text will begin a
     // drag-drop operation
-    "drag_text": true,
+    "drag_text": false,
 
     //
     // User Interface Settings
@@ -251,18 +251,18 @@
 
     // Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to
     // scroll slower, or set to larger than 1 to scroll faster
-    "scroll_speed": 1.0,
+    "scroll_speed": 0.8,
 
     // Controls side bar animation when expanding or collapsing folders
     "tree_animation_enabled": true,
 
     // Makes tabs with modified files more visible
-    "highlight_modified_tabs": false,
+    "highlight_modified_tabs": true,
 
     "show_tab_close_buttons": true,
 
     // Show folders in the side bar in bold
-    "bold_folder_labels": false,
+    "bold_folder_labels": true,
 
     // OS X 10.7 only: Set to true to disable Lion style full screen support.
     // Sublime Text must be restarted for this to take effect.
