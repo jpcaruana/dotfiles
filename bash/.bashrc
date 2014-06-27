@@ -74,10 +74,23 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+. ~/.bash_t2s
+
 export LESS=-RFX
+export EDITOR=vim
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 fi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# alias
+alias eclipse='/opt/eclipse/eclipse'
+alias idea='/opt/idea-IU-129.713/bin/idea.sh'
+alias sublime='/opt/sublime/sublime_text'
+
+# Path
+export GOROOT=/opt/go
+export GOPATH=~/src/gopath
+export JAVA_HOME=/opt/jdk7/
+
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin
