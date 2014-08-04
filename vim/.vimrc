@@ -61,6 +61,8 @@ set pastetoggle=<F2>
 " Envoyer le curseur sur la ligne suivante/précédente après usage des flèches droite/gauche en bout de ligne :
 set whichwrap=<,>,[,]
 
+set rtp+=$GOROOT/misc/vim
+
 " shebang automatique lors de l'ouverture nouveau d'un fichier *.py, *.sh (bash), modifier l'entête selon les besoins :
 :autocmd BufNewFile *.sh,*.bash 0put =\"#!/bin/bash\<nl># -*- coding: UTF8 -*-\<nl>\<nl>\"|$
 :autocmd BufNewFile,BufRead *.py set softtabstop=4 expandtab 
@@ -105,3 +107,4 @@ augroup JumpCursorOnEdit
  \ endif
 augroup END
 
+set runtimepath^=~/.vim/bundle/ctrlp.vim
