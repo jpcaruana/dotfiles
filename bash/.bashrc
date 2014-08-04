@@ -37,10 +37,11 @@ function parse_git_branch {
 }
 
 
-#PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[00;32m\]$(parse_git_branch)\[\033[00m\]$ '
+exit_status='$(exit_code=$?; [ $exit_code -eq 0 ] || printf %s $exit_code " ")'
 if [ -f ~/prompt-git.bash ]; then
 	source ~/prompt-git.bash
 fi
+export PS1="\033[1;31m$exit_status\033[m$PS1"
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
