@@ -99,3 +99,9 @@ export ECLIPSE_HOME=/opt/eclipse
 export IDEA_HOME=/opt/idea
 
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin:$SBT_HOME/bin:$ECLIPSE_HOME/bin:/$IDEA_HOME/bin:$SCALA_HOME/bin:$RUST_HOME/bin
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/opt/google-cloud-sdk/path.bash.inc'
+
+# The next line enables bash completion for gcloud.
+source '/opt/google-cloud-sdk/completion.bash.inc'
