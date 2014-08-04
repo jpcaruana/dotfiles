@@ -91,6 +91,11 @@ alias sublime='/opt/sublime/sublime_text'
 # Path
 export GOROOT=/opt/go
 export GOPATH=~/src/gopath
-export JAVA_HOME=/opt/jdk7/
+export JAVA_HOME=/opt/jdk7
+export SCALA_HOME=/opt/scala
+export RUST_HOME=/opt/rust
+export SBT_HOME=/opt/sbt
+export ECLIPSE_HOME=/opt/eclipse
+export IDEA_HOME=/opt/idea
 
-PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin:$SBT_HOME/bin:$ECLIPSE_HOME/bin:/$IDEA_HOME/bin:$SCALA_HOME/bin:$RUST_HOME/bin
