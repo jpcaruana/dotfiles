@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"GoSublime",
 		"Package Control",
 		"Rust"
 	]
