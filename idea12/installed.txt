@@ -1,0 +1,8 @@
+com.intellij
+org.jetbrains.plugins.ruby
+ro.redeul.google.go
+org.intellij.scala
+com.scalaImportsOrganizer
+Pythonid
+SBT
+BashSupport

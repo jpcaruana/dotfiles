@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="libraryTable">
+    <library name="atoulme-Antwrap (v0.7.4, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/atoulme-Antwrap-0.7.4/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/atoulme-Antwrap-0.7.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="builder (v3.2.2, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/builder-3.2.2/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/builder-3.2.2/rakelib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/builder-3.2.2/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/builder-3.2.2/rakelib" />
+      </SOURCES>
+    </library>
+    <library name="diff-lcs (v1.2.4, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/diff-lcs-1.2.4/bin" />
+        <root url="file:///var/lib/gems/1.9.1/gems/diff-lcs-1.2.4/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/diff-lcs-1.2.4/autotest" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/diff-lcs-1.2.4/bin" />
+        <root url="file:///var/lib/gems/1.9.1/gems/diff-lcs-1.2.4/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/diff-lcs-1.2.4/autotest" />
+      </SOURCES>
+    </library>
+    <library name="hoe (v3.7.1, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/hoe-3.7.1/bin" />
+        <root url="file:///var/lib/gems/1.9.1/gems/hoe-3.7.1/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/hoe-3.7.1/template" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/hoe-3.7.1/bin" />
+        <root url="file:///var/lib/gems/1.9.1/gems/hoe-3.7.1/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/hoe-3.7.1/template" />
+      </SOURCES>
+    </library>
+    <library name="json_pure (v1.8.0, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/ext" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/data" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/java" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/tests" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/tools" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/diagrams" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/ext" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/data" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/java" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/tests" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/tools" />
+        <root url="file:///var/lib/gems/1.9.1/gems/json_pure-1.8.0/diagrams" />
+      </SOURCES>
+    </library>
+    <library name="minitar (v0.5.4, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/minitar-0.5.4/bin" />
+        <root url="file:///var/lib/gems/1.9.1/gems/minitar-0.5.4/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/minitar-0.5.4/tests" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/minitar-0.5.4/bin" />
+        <root url="file:///var/lib/gems/1.9.1/gems/minitar-0.5.4/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/minitar-0.5.4/tests" />
+      </SOURCES>
+    </library>
+    <library name="net-sftp (v2.1.2, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/net-sftp-2.1.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/net-sftp-2.1.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="net-ssh (v2.7.0, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/net-ssh-2.7.0/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/net-ssh-2.7.0/support" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/net-ssh-2.7.0/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/net-ssh-2.7.0/support" />
+      </SOURCES>
+    </library>
+    <library name="orderedhash (v0.0.6, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/orderedhash-0.0.6/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/orderedhash-0.0.6/lib" />
+      </SOURCES>
+    </library>
+    <library name="Python 2.7.4 (/usr/bin/python) interpreter library">
+      <CLASSES>
+        <root url="file:///usr/lib/python2.7" />
+        <root url="file:///usr/lib/python2.7/plat-x86_64-linux-gnu" />
+        <root url="file:///usr/lib/python2.7/lib-tk" />
+        <root url="file:///usr/lib/python2.7/lib-dynload" />
+        <root url="file:///usr/local/lib/python2.7/dist-packages" />
+        <root url="file:///usr/lib/python2.7/dist-packages" />
+        <root url="file:///usr/lib/python2.7/dist-packages/PILcompat" />
+        <root url="file:///usr/lib/python2.7/dist-packages/gtk-2.0" />
+        <root url="file:///usr/lib/python2.7/dist-packages/ubuntu-sso-client" />
+        <root url="file:///usr/lib/python2.7/dist-packages/ubuntuone-client" />
+        <root url="file:///usr/lib/python2.7/dist-packages/ubuntuone-control-panel" />
+        <root url="file:///usr/lib/python2.7/dist-packages/ubuntuone-storage-protocol" />
+        <root url="file://$USER_HOME$/.IntelliJIdea12/system/python_stubs/348993582" />
+        <root url="file:///usr/lib/pymodules/python2.7" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib/python2.7" />
+        <root url="file:///usr/lib/python2.7/plat-x86_64-linux-gnu" />
+        <root url="file:///usr/lib/python2.7/lib-tk" />
+        <root url="file:///usr/lib/python2.7/lib-dynload" />
+        <root url="file:///usr/local/lib/python2.7/dist-packages" />
+        <root url="file:///usr/lib/python2.7/dist-packages" />
+        <root url="file:///usr/lib/python2.7/dist-packages/PILcompat" />
+        <root url="file:///usr/lib/python2.7/dist-packages/gtk-2.0" />
+        <root url="file:///usr/lib/python2.7/dist-packages/ubuntu-sso-client" />
+        <root url="file:///usr/lib/python2.7/dist-packages/ubuntuone-client" />
+        <root url="file:///usr/lib/python2.7/dist-packages/ubuntuone-control-panel" />
+        <root url="file:///usr/lib/python2.7/dist-packages/ubuntuone-storage-protocol" />
+        <root url="file://$USER_HOME$/.IntelliJIdea12/system/python_stubs/348993582" />
+        <root url="file:///usr/lib/pymodules/python2.7" />
+      </SOURCES>
+    </library>
+    <library name="rake (v0.9.2.2, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rake-0.9.2.2/bin" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rake-0.9.2.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rake-0.9.2.2/bin" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rake-0.9.2.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="rjb (v1.4.8, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rjb-1.4.8/ext" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rjb-1.4.8/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rjb-1.4.8/data" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rjb-1.4.8/samples" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rjb-1.4.8/ext" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rjb-1.4.8/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rjb-1.4.8/data" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rjb-1.4.8/samples" />
+      </SOURCES>
+    </library>
+    <library name="rspec (v2.14.1, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-2.14.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-2.14.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="rspec-core (v2.14.5, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-core-2.14.5/exe" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-core-2.14.5/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-core-2.14.5/exe" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-core-2.14.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="rspec-expectations (v2.14.3, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-expectations-2.14.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-expectations-2.14.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rspec-mocks (v2.14.3, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-mocks-2.14.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rspec-mocks-2.14.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rubyzip (v0.9.9, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rubyzip-0.9.9/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rubyzip-0.9.9/samples" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/rubyzip-0.9.9/lib" />
+        <root url="file:///var/lib/gems/1.9.1/gems/rubyzip-0.9.9/samples" />
+      </SOURCES>
+    </library>
+    <library name="scala-library">
+      <CLASSES>
+        <root url="jar:///opt/scala/lib/scala-library.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="xml-simple (v1.1.2, ruby-1.9.3-p194) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/1.9.1/gems/xml-simple-1.1.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///var/lib/gems/1.9.1/gems/xml-simple-1.1.2/lib" />
+      </SOURCES>
+    </library>
+  </component>
+</application>
+

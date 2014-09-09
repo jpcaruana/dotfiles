@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="1.7" />
+      <type value="JavaSDK" />
+      <version value="java version &quot;1.7.0_21&quot;" />
+      <homePath value="/opt/jdk7" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/resources.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/jsse.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/jfxrt.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/deploy.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/management-agent.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/rt.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/jce.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/javaws.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/jfr.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/charsets.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/plugin.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/ext/sunpkcs11.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/ext/sunec.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar:///opt/jdk7/jre/lib/ext/zipfs.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 2.7.4 (/usr/bin/python)" />
+      <type value="Python SDK" />
+      <version value="Python 2.7.4" />
+      <homePath value="/usr/bin/python" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file:///usr/lib/python2.7" />
+            <root type="simple" url="file:///usr/lib/python2.7/plat-x86_64-linux-gnu" />
+            <root type="simple" url="file:///usr/lib/python2.7/lib-tk" />
+            <root type="simple" url="file:///usr/lib/python2.7/lib-dynload" />
+            <root type="simple" url="file:///usr/local/lib/python2.7/dist-packages" />
+            <root type="simple" url="file:///usr/lib/python2.7/dist-packages" />
+            <root type="simple" url="file:///usr/lib/python2.7/dist-packages/PILcompat" />
+            <root type="simple" url="file:///usr/lib/python2.7/dist-packages/gtk-2.0" />
+            <root type="simple" url="file:///usr/lib/python2.7/dist-packages/ubuntu-sso-client" />
+            <root type="simple" url="file:///usr/lib/python2.7/dist-packages/ubuntuone-client" />
+            <root type="simple" url="file:///usr/lib/python2.7/dist-packages/ubuntuone-control-panel" />
+            <root type="simple" url="file:///usr/lib/python2.7/dist-packages/ubuntuone-storage-protocol" />
+            <root type="simple" url="file://$USER_HOME$/.IntelliJIdea12/system/python_stubs/348993582" />
+            <root type="simple" url="file:///usr/lib/pymodules/python2.7" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 2.7.4 virtualenv at ~/src/t2s/admintools/ansible/env/local" />
+      <type value="Python SDK" />
+      <version value="Python 2.7.4" />
+      <homePath value="$USER_HOME$/src/t2s/admintools/ansible/env/local/bin/python" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/src/t2s/admintools/ansible/env/local/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg" />
+            <root type="simple" url="file://$USER_HOME$/src/t2s/admintools/ansible/env/local/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg" />
+            <root type="simple" url="file://$USER_HOME$/src/t2s/admintools/ansible/env/local/lib/python2.7" />
+            <root type="simple" url="file://$USER_HOME$/src/t2s/admintools/ansible/env/local/lib/python2.7/lib-dynload" />
+            <root type="simple" url="file:///usr/lib/python2.7" />
+            <root type="simple" url="file:///usr/lib/python2.7/plat-x86_64-linux-gnu" />
+            <root type="simple" url="file:///usr/lib/python2.7/lib-tk" />
+            <root type="simple" url="file://$USER_HOME$/src/t2s/admintools/ansible/env/local/lib/python2.7/site-packages" />
+            <root type="simple" url="file://$USER_HOME$/.IntelliJIdea12/system/python_stubs/1867968567" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="ruby-1.9.3-p194" />
+      <type value="RUBY_SDK" />
+      <version value="ver.1.9.3p194 ( revision 35410) p194" />
+      <homePath value="/usr/bin/ruby" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file:///usr/local/lib/site_ruby/1.9.1" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby/1.9.1/x86_64-linux" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby" />
+            <root type="simple" url="file:///usr/lib/ruby/1.9.1" />
+            <root type="simple" url="file:///usr/lib/ruby/1.9.1/x86_64-linux" />
+            <root type="simple" url="file://$USER_HOME$/.IntelliJIdea12/config/plugins/ruby/rubystubs/rubystubs193" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby/1.9.1" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby/1.9.1/x86_64-linux" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby" />
+            <root type="simple" url="file:///usr/lib/ruby/1.9.1" />
+            <root type="simple" url="file:///usr/lib/ruby/1.9.1/x86_64-linux" />
+            <root type="simple" url="file://$USER_HOME$/.IntelliJIdea12/config/plugins/ruby/rubystubs/rubystubs193" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file:///usr/local/lib/site_ruby/1.9.1" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby/1.9.1/x86_64-linux" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby" />
+            <root type="simple" url="file:///usr/lib/ruby/1.9.1" />
+            <root type="simple" url="file:///usr/lib/ruby/1.9.1/x86_64-linux" />
+            <root type="simple" url="file://$USER_HOME$/.IntelliJIdea12/config/plugins/ruby/rubystubs/rubystubs193" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby/1.9.1" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby/1.9.1/x86_64-linux" />
+            <root type="simple" url="file:///usr/local/lib/site_ruby" />
+            <root type="simple" url="file:///usr/lib/ruby/1.9.1" />
+            <root type="simple" url="file:///usr/lib/ruby/1.9.1/x86_64-linux" />
+            <root type="simple" url="file://$USER_HOME$/.IntelliJIdea12/config/plugins/ruby/rubystubs/rubystubs193" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional LANGUAGE_LEVEL="ruby19" RVM_IGNORE_GLOBAL="false" GEMS_BIN_DIR_PATH="/usr/bin" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android 4.4W Platform" />
+      <type value="Android SDK" />
+      <version value="java version &quot;1.7.0_21&quot;" />
+      <homePath value="$USER_HOME$/src/android-sdk-linux" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$USER_HOME$/src/android-sdk-linux/platforms/android-20/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/src/android-sdk-linux/platforms/android-20/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/src/android-sdk-linux/tools/support/annotations.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/src/android-sdk-linux/docs/reference" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional jdk="1.7" sdk="android-20" />
+    </jdk>
+    <jdk version="2">
+      <name value="Go sdk go1.3 linux/amd64" />
+      <type value="Google Go SDK" />
+      <version value="go1.3 linux/amd64" />
+      <homePath value="/opt/go-1.3" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file:///opt/go-1.3/src/pkg" />
+            <root type="simple" url="file:///opt/go-1.3/pkg/linux_amd64" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file:///opt/go-1.3/src/pkg" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional>
+        <option name="GO_HOME_PATH" value="/opt/go-1.3" />
+        <option name="GO_BIN_PATH" value="/opt/go-1.3/bin" />
+        <option name="TARGET_OS" value="Linux" />
+        <option name="TARGET_ARCH" value="_amd64" />
+        <option name="VERSION_MAJOR" value="go1.3 linux/amd64" />
+        <option name="VERSION_MINOR" value="" />
+        <option name="version" value="1" />
+      </additional>
+    </jdk>
+    <jdk version="2">
+      <name value="1.8" />
+      <type value="JavaSDK" />
+      <version value="java version &quot;1.8.0_20&quot;" />
+      <homePath value="/opt/jdk8" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/jfxswt.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/jce.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/management-agent.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/plugin.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/deploy.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/javaws.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/resources.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/jsse.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/jfr.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/rt.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/charsets.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/ext/sunpkcs11.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/ext/jfxrt.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/ext/zipfs.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/ext/cldrdata.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/ext/sunec.jar!/" />
+            <root type="simple" url="jar:///opt/jdk8/jre/lib/ext/nashorn.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="jar:///opt/jdk8/src.zip!/" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Python">
+  <template name="super" value="super($class$, self).$method$($end$)" description="Generates a 'super' call" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="pyClassName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="method" expression="pyFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+    </context>
+  </template>
+</templateSet>
+
