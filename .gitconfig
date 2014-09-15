@@ -16,6 +16,7 @@
 	abbrevCommit = true
 [status]
 	submoduleSummary = true
+	showUntrackedFiles = all
 [push]
 	default = simple
 [alias]
