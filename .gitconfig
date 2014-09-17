@@ -21,8 +21,9 @@
 	default = simple
 [alias]
 	last = cat-file commit HEAD
-	cm = commit -am\"[refactor] code mort\"
-	duplication = commit -am\"[refactor] code mort : duplication\"
+	cm = commit -am\"[refactor] dead code\"
+	dc = commit -am\"[refactor] dead code\"
+	duplication = commit -am\"[refactor] dead code: duplication\"
 	format = commit -am\"[refactor] format\"
 	rename = commit -am\"[refactor] rename\"
 	st = status --short
