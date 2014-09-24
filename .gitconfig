@@ -25,6 +25,7 @@
 	dc = commit -am\"[refactor] dead code\"
 	duplication = commit -am\"[refactor] dead code: duplication\"
 	format = commit -am\"[refactor] format\"
+	drilldown = commit -am\"[refactor] format: methods drill down\"
 	rename = commit -am\"[refactor] rename\"
 	st = status --short
 	co = checkout
