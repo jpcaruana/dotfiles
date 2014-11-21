@@ -39,6 +39,8 @@
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
 	count = shortlog -s -n
+  rbd = rebase develop --preserve-merges
+  rbm = rebase master --preserve-merges
 [mergetool]
 	keepBackup = false
 	keepTemporaries = false
