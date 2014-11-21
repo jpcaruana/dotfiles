@@ -2,7 +2,9 @@
 	"installed_packages":
 	[
 		"GoSublime",
+		"MarkdownEditing",
 		"Package Control",
-		"Rust"
+		"Rust",
+		"Table Editor"
 	]
 }
