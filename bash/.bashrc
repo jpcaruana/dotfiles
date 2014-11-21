@@ -92,14 +92,15 @@ alias sublime='/opt/sublime/sublime_text'
 # Path
 export GOROOT=/opt/go
 export GOPATH=~/src/gopath
-export JAVA_HOME=/opt/jdk7
+export JAVA_HOME=/opt/jdk8
 export SCALA_HOME=/opt/scala
 export RUST_HOME=/opt/rust
 export SBT_HOME=/opt/sbt
 export ECLIPSE_HOME=/opt/eclipse
 export IDEA_HOME=/opt/idea
+export MVN_HOME=/opt/apache-maven-3.2.2/
 
-PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin:$SBT_HOME/bin:$ECLIPSE_HOME/bin:/$IDEA_HOME/bin:$SCALA_HOME/bin:$RUST_HOME/bin
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin:$SBT_HOME/bin:$ECLIPSE_HOME/bin:/$IDEA_HOME/bin:$SCALA_HOME/bin:$RUST_HOME/bin:$MVN_HOME/bin:$GOPATH/bin
 
 # The next line updates PATH for the Google Cloud SDK.
 source '/opt/google-cloud-sdk/path.bash.inc'
