@@ -98,9 +98,10 @@ export RUST_HOME=/opt/rust
 export SBT_HOME=/opt/sbt
 export ECLIPSE_HOME=/opt/eclipse
 export IDEA_HOME=/opt/idea
-export MVN_HOME=/opt/apache-maven-3.2.2/
+export MVN_HOME=/opt/apache-maven-3.2.2
+export HADOOP_HOME=/opt/hadoop
 
-PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin:$SBT_HOME/bin:$ECLIPSE_HOME/bin:/$IDEA_HOME/bin:$SCALA_HOME/bin:$RUST_HOME/bin:$MVN_HOME/bin:$GOPATH/bin
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin:$SBT_HOME/bin:$ECLIPSE_HOME/bin:/$IDEA_HOME/bin:$SCALA_HOME/bin:$RUST_HOME/bin:$MVN_HOME/bin:$GOPATH/bin:$HADOOP_HOME/bin
 
 # The next line updates PATH for the Google Cloud SDK.
 source '/opt/google-cloud-sdk/path.bash.inc'
