@@ -1,6 +1,7 @@
 [user]
 	name = Jean-Philippe CARUANA
 	email = jp@target2sell.com
+	signingkey = 6AEA0762
 [color]
 	ui = auto
 	interactive = auto
@@ -8,7 +9,7 @@
 	editor = vim
 	whitespace = -trailing-space
 [diff]
-	mnemonicPrefix = true
+	mnemonicprefix = true
 	wordRegex = .
 [grep]
 	extendedRegexp = true
@@ -35,6 +36,7 @@
 	rbi = rebase --interactive
 	topo-log = log --oneline --graph --all --decorate
 	topo-log-branch = log --oneline --graph --decorate
+  mega-log = log --graph --all --pretty=format:'%C(yellow)%h -%C(auto)%d %C(bold cyan)%s %C(bold white)(%cr)%Creset %C(dim white)<%an>'  
 	k = !gitk
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
@@ -48,3 +50,5 @@
 	cmd = p4merge $BASE $LOCAL $REMOTE $MERGED
 [merge]
 	tool = p4merge
+[rerere]
+	enabled = true
