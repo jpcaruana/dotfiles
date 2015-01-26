@@ -1,2 +1,2 @@
 #!/bin/bash
-xrandr --output VGA1 --auto --left-of DP1
+xrandr --output DP1 --auto --left-of VGA1
