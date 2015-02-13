@@ -96,6 +96,7 @@ export JAVA_HOME=/opt/jdk8
 export SCALA_HOME=/opt/scala
 export RUST_HOME=/opt/rust
 export SBT_HOME=/opt/sbt
+export GRADLE_HOME=/opt/gradle
 export ECLIPSE_HOME=/opt/eclipse
 export IDEA_HOME=/opt/idea
 export MVN_HOME=/opt/apache-maven-3.2.2
@@ -103,7 +104,7 @@ export HADOOP_HOME=/opt/hadoop
 export CASSANDRA_HOME=/opt/cassandra
 export DATASTAX_DEVCENTER_HOME=/opt/devcenter
 
-PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin:$SBT_HOME/bin:$ECLIPSE_HOME/bin:/$IDEA_HOME/bin:$SCALA_HOME/bin:$RUST_HOME/bin:$MVN_HOME/bin:$GOPATH/bin:$HADOOP_HOME/bin:$CASSANDRA_HOME/bin:$DATASTAX_DEVCENTER_HOME
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin:$SBT_HOME/bin:$ECLIPSE_HOME/bin:/$IDEA_HOME/bin:$SCALA_HOME/bin:$RUST_HOME/bin:$MVN_HOME/bin:$GOPATH/bin:$HADOOP_HOME/bin:$CASSANDRA_HOME/bin:$DATASTAX_DEVCENTER_HOME:$GRADLE_HOME/bin
 
 # The next line updates PATH for the Google Cloud SDK.
 source '/opt/google-cloud-sdk/path.bash.inc'
