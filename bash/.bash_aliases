@@ -6,8 +6,6 @@ if [ "$TERM" != "dumb" ]; then
     #alias vdir='ls --color=auto --format=long'
 fi
 
-alias hibernate='xscreensaver-command -lock &  sudo pm-suspend'
-
 # standard
 alias l='ls -CF'
 alias grep='grep --color=auto'
