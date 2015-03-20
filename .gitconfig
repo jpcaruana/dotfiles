@@ -28,6 +28,8 @@
 	format = commit -am\"[refactor] format\"
 	uppercase = commit -am\"[refactor] rename: constants are upper case in java norm\"
 	drilldown = commit -am\"[refactor] format: methods drill down\"
+	lambda = commit -am\"[refactor] java8: lambdas\"
+	collect = commit -am\"[refactor] java8: collect\"
 	rename = commit -am\"[refactor] rename\"
 	st = status --short
 	co = checkout
