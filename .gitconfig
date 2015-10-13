@@ -33,6 +33,7 @@
 	rename = commit -am\"[refactor] rename\"
 	st = status --short
 	co = checkout
+	oc = checkout
 	br = branch -a --verbose
 	rb = rebase
 	rbi = rebase --interactive
