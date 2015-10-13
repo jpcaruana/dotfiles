@@ -15,6 +15,7 @@ alias ack='ack-grep'
 # Pour les gros doigts
 alias cd..='cd ..'
 alias grpe='grep'
+alias gerp='grep'
 alias mroe='more'
 alias iv='vi'
 alias tial='tail'
