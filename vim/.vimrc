@@ -55,6 +55,11 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 set nobackup
 set noswapfile
 
+" display file encoding
+if has("statusline")
+ set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
+endif
+
 " desactiver l'intelligence de vim pour des gros copier/coller
 set pastetoggle=<F2>
 
