@@ -66,6 +66,11 @@ set pastetoggle=<F2>
 " Envoyer le curseur sur la ligne suivante/précédente après usage des flèches droite/gauche en bout de ligne :
 set whichwrap=<,>,[,]
 
+" Ctrl-D pour supprimer une ligne, Ctrl-U pour mettre en majuscule un mot ou Ctrl-Y pour dupliquer une ligne.
+imap <C-D> <esc> ddi
+imap <C-U> <esc> viwgUi
+imap <C-Y> <esc> yypi
+
 set rtp+=$GOROOT/misc/vim
 
 " shebang automatique lors de l'ouverture nouveau d'un fichier *.py, *.sh (bash), modifier l'entête selon les besoins :
