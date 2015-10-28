@@ -1,0 +1,969 @@
+{
+	"folder_history":
+	[
+		"/tmp/dune",
+		"/tmp/Expose",
+		"/home/jp/src/perso/barreverte.github.io",
+		"/home/jp/src/perso/jpcaruana.github.io",
+		"/home/jp/src/perso/dockerfiles",
+		"/home/jp/src/t2s/documentation",
+		"/home/jp/src/perso/rust",
+		"/tmp/tyk",
+		"/tmp/grpc-common",
+		"/home/jp/src/perso/my-notes",
+		"/tmp/poub/hugo_gh_blog",
+		"/tmp/poub/kubernetes",
+		"/tmp/kubernetes",
+		"/tmp/injector",
+		"/home/jp/src/perso/avsp",
+		"/home/jp/src/perso/scala/rationnel",
+		"/tmp/mahout",
+		"/home/jp/src/open_source/buildr",
+		"/home/jp/t2s/mongo",
+		"/home/jp/src/t2s/log-recap"
+	],
+	"last_window_id": 38,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"margi",
+						"margin-bottom"
+					],
+					[
+						"padd",
+						"padding-bottom"
+					],
+					[
+						"in",
+						"inline"
+					],
+					[
+						"pri",
+						"println!	println! …"
+					],
+					[
+						"pad",
+						"padding-right"
+					],
+					[
+						"fu",
+						"func	func {...} ʂ"
+					],
+					[
+						"Ha",
+						"Harmcrest"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"package inst",
+						"Package Control: Install Package"
+					],
+					[
+						"package ins",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/jp/src/perso/barreverte.github.io/css/theme.css",
+				"/home/jp/src/perso/barreverte.github.io/css/fonts.css",
+				"/home/jp/src/perso/barreverte.github.io/_posts/2014-04-22-creer-un-chroot-part-2-se-connecter.markdown",
+				"/home/jp/src/perso/barreverte.github.io/_posts/2015-08-25-optimiser-son-client-ssh.md",
+				"/home/jp/src/perso/barreverte.github.io/_includes/header.html",
+				"/home/jp/src/perso/jpcaruana.github.io/404.md",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/footer.html",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/jp.css",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/head.html",
+				"/home/jp/src/perso/jpcaruana.github.io/css/style.css",
+				"/home/jp/src/perso/jpcaruana.github.io/_layouts/default.html",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/links.html",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/hyde.css",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/poole.css",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/sidebar.html",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/syntax.css",
+				"/home/jp/src/perso/jpcaruana.github.io/_config.yml.emac",
+				"/home/jp/src/perso/dockerfiles/carton/Dockerfile",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/astuce_mongo_docker_systemd.md",
+				"/home/jp/src/t2s/core/ws-auth/src/main/doc/footer.md",
+				"/home/jp/t2s/MEP réorganisation des files users.md",
+				"/home/jp/src/t2s/core/ws-email/src/main/doc/header.md",
+				"/home/jp/src/t2s/core/ws-catalog/src/main/doc/header.md",
+				"/home/jp/src/t2s/core/ws-catalog/src/main/doc/footer.md",
+				"/home/jp/src/t2s/core/ws-user/src/main/doc/footer.md",
+				"/home/jp/src/t2s/core/ws-user/src/main/doc/header.md",
+				"/home/jp/src/t2s/core/ws-auth/src/main/doc/header.md",
+				"/home/jp/src/t2s/core/scripts/mep_rabbit",
+				"/home/jp/src/perso/barreverte.github.io/_posts/2012-08-27-binomer-avec-un-clavier-dvorak-et-un-clavier-azerty.markdown",
+				"/home/jp/src/perso/barreverte.github.io/_config.yml",
+				"/home/jp/src/perso/barreverte.github.io/_includes/disqus-comments.html",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/default.html",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/default_with_pagination.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/sidebar.html",
+				"/home/jp/src/perso/barreverte.github.io/404.md",
+				"/home/jp/src/perso/barreverte.github.io/_includes/links-list.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/links-list.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/fiche-lecture-droidmaker.md",
+				"/home/jp/src/perso/barreverte.github.io/about.md",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/post.html",
+				"/home/jp/src/perso/barreverte.github.io/archive.html",
+				"/home/jp/src/perso/barreverte.github.io/index.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/pagination.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/footer.html",
+				"/home/jp/src/perso/barreverte.github.io/feed",
+				"/home/jp/src/perso/barreverte.github.io/archive.md",
+				"/home/jp/src/perso/barreverte.github.io/404.html",
+				"/home/jp/src/perso/barreverte.github.io/hashes_ipfs.txt",
+				"/home/jp/src/perso/barreverte.github.io/hash3.txt",
+				"/home/jp/src/perso/barreverte.github.io/hash2.txt",
+				"/home/jp/src/perso/barreverte.github.io/hash.txt",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/etre-alerte-en-cas-de-OutOfMemoryexception.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/optimiser-son-client-ssh.md",
+				"/home/jp/src/t2s/documentation/support/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-fr/Apis.md",
+				"/home/jp/src/t2s/documentation/support-fr/DataExport.md",
+				"/home/jp/src/t2s/documentation/support-fr/EmailCreation.md",
+				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfRecommendationSpacesOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-fr/PrestashopModuleInstallation.md",
+				"/home/jp/src/t2s/documentation/support-fr/index.md",
+				"/home/jp/src/t2s/documentation/index-es.md",
+				"/home/jp/src/t2s/documentation/index-fr.md",
+				"/home/jp/src/t2s/documentation/_includes/head.html",
+				"/home/jp/src/t2s/documentation/_config.yml",
+				"/home/jp/src/t2s/documentation/_includes/end.html",
+				"/home/jp/src/t2s/documentation/_includes/header.html",
+				"/home/jp/src/t2s/documentation/_includes/header_fr.html",
+				"/home/jp/src/t2s/documentation/_includes/header_es.html",
+				"/home/jp/src/t2s/documentation/_includes/menu.html",
+				"/home/jp/src/t2s/documentation/_includes/menu_es.html",
+				"/home/jp/src/t2s/documentation/_includes/menu_fr.html",
+				"/home/jp/src/t2s/documentation/support/Apis.md",
+				"/home/jp/src/t2s/documentation/support/DataExport.md",
+				"/home/jp/src/t2s/documentation/support/EmailCreation.md",
+				"/home/jp/src/t2s/documentation/support/IntegrationOfRecommendationSpacesOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support/PrestashopModuleInstallation.md",
+				"/home/jp/src/t2s/documentation/support/index.md",
+				"/home/jp/src/t2s/documentation/support-es/index.md",
+				"/home/jp/src/t2s/documentation/support-es/CatalogXMLExport.md",
+				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/index.md",
+				"/home/jp/src/t2s/documentation/README.md",
+				"/home/jp/src/t2s/documentation/_layouts/default_es.html",
+				"/home/jp/src/t2s/documentation/support-es/build_html",
+				"/home/jp/src/t2s/documentation/support-fr/Support.md",
+				"/home/jp/src/t2s/documentation/support-fr/CatalogXMLExport.md",
+				"/home/jp/src/t2s/documentation/support-fr/MagentoModuleInstallation.md",
+				"/home/jp/src/t2s/documentation/support-fr/apicouchebasserecot2s.md",
+				"/home/jp/src/t2s/documentation/support/MagentoModuleInstallation.md",
+				"/home/jp/src/t2s/documentation/support/Support.md",
+				"/home/jp/src/t2s/documentation/_layouts/default_fr.html",
+				"/home/jp/src/t2s/documentation/_includes/menu-fr.html",
+				"/home/jp/src/t2s/documentation/index.html",
+				"/home/jp/src/t2s/documentation/support/apicouchebasserecot2s.md",
+				"/home/jp/src/t2s/documentation/support/ImplementationDuTrackingSurLeSiteMarchand.html",
+				"/home/jp/src/t2s/documentation/_layouts/default.html",
+				"/home/jp/src/t2s/documentation/_includes/begin.htm",
+				"/home/jp/src/t2s/documentation/support/Apis.html",
+				"/home/jp/src/t2s/documentation/support/CatalogXMLExport.md",
+				"/home/jp/src/t2s/documentation/support/DataExport.html",
+				"/home/jp/src/t2s/documentation/support/EmailCreation.html",
+				"/home/jp/src/perso/jpcaruana.github.io/emac/usa/usa2.tex.md",
+				"/home/jp/src/perso/jpcaruana.github.io/libre.md",
+				"/home/jp/src/perso/jpcaruana.github.io/chap1ros.md",
+				"/home/jp/src/perso/jpcaruana.github.io/chap2ros.md",
+				"/home/jp/src/perso/jpcaruana.github.io/chap3ros.md",
+				"/home/jp/src/perso/jpcaruana.github.io/emac/index.md",
+				"/home/jp/src/perso/jpcaruana.github.io/emac/usa/usa.tex.md",
+				"/home/jp/src/perso/jpcaruana.github.io/libre/libre.md",
+				"/home/jp/src/perso/jpcaruana.github.io/libre/rapport.tex",
+				"/home/jp/src/perso/jpcaruana.github.io/libre/exemples.md",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/menu.html",
+				"/home/jp/src/perso/jpcaruana.github.io/about.md",
+				"/home/jp/src/perso/jpcaruana.github.io/_config.yml",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/header.html",
+				"/home/jp/src/perso/jpcaruana.github.io/index.md",
+				"/home/jp/src/perso/jpcaruana.github.io/cv.md",
+				"/home/jp/src/perso/rust/hello_world/Cargo.toml",
+				"/home/jp/src/perso/rust/hello_world/src/main.rs",
+				"/home/jp/src/perso/rust/001/Cargo.toml",
+				"/home/jp/src/perso/rust/001/Cargo.lock",
+				"/home/jp/src/perso/rust/001/src/main.rs",
+				"/tmp/tyk/main.go",
+				"/tmp/tyk/api.go",
+				"/tmp/tyk/middleware_rate_limiting.go",
+				"/tmp/tyk/Makefile",
+				"/tmp/tyk/oauth_manager.go"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"ownload_button",
+					"article",
+					"{{ site.baseurl }}",
+					"em",
+					"ô",
+					"à",
+					"é",
+					"</tt>",
+					"<tt>",
+					"/\n",
+					"````javascript",
+					"/support-fr",
+					"(/images/",
+					"](/",
+					"/support-es",
+					"/support",
+					"/documentation",
+					"/support/",
+					"/documentation/",
+					">",
+					"/documentation",
+					"/support/",
+					"/documentation",
+					"connection",
+					"quote",
+					"\\",
+					"textsc",
+					"\\<\\< ",
+					" \\>\\>",
+					"\\<\\< ",
+					",\n",
+					"boite",
+					"vcard",
+					">\n",
+					"Environnement et technologies :",
+					"Environnement et technologies:",
+					"LoadPoliciesFromFile",
+					"getPolicies",
+					"loadApps",
+					"getAPISpecs",
+					"StartPubSubLoop",
+					"loadAPIEndpoints",
+					"apiHandler",
+					"loadAPIEndpoints",
+					"displayConfig",
+					"</p>",
+					"<p>",
+					"git",
+					"h2",
+					"'\n",
+					"\"\n",
+					"00",
+					"=$"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"{{ \"/\" | prepend: site.url }}",
+					"ô",
+					"à",
+					"é",
+					"`",
+					"````js",
+					"{{ site.url }}/support-fr",
+					"({{ site.url }}/images/",
+					"](/{{ site.url }}/",
+					"{{ site.url }}/support-es",
+					"{{ site.url }}/support",
+					"{{ site.url }}",
+					"/support-es/",
+					"/",
+					"",
+					"/support-fr/",
+					"",
+					"connexion",
+					"",
+					"\"",
+					"_Environnement et technologies_ :",
+					"",
+					"h1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.9o:///home/jp/src/t2s":
+			{
+				"height": 100.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 100.0
+			},
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"buildr.builfile",
+						"buildr.buildfile"
+					],
+					[
+						"generate.rb",
+						"lib/buildr/core/generate.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 352.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"margi",
+						"margin-bottom"
+					],
+					[
+						"padd",
+						"padding-bottom"
+					],
+					[
+						"in",
+						"inline"
+					],
+					[
+						"pri",
+						"println!	println! …"
+					],
+					[
+						"pad",
+						"padding-right"
+					],
+					[
+						"fu",
+						"func	func {...} ʂ"
+					],
+					[
+						"Ha",
+						"Harmcrest"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/tmp/dune/default",
+					"settings":
+					{
+						"buffer_size": 561,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "server {\n    listen 81;\n    server_name ga.dune.io;\n    rewrite ^(.*) https://$server_name$1 permanent;\n}\n\nserver {\n    listen 443;\n    server_name ga.dune.io;\n    root  /var/www/piwik;\n    index  index.php index.html;\n\n    access_log /var/log/nginx/ga_access.log;\n    error_log /var/log/nginx/ga_error.log;\n\n    # Disable all methods besides HEAD, GET and POST.\n    if ($request_method !~ ^(GET|HEAD|POST)$ ) {\n        return 444;\n    }\n\n    # Disallow any usage of piwik assets if referer is non valid.\n    #location ~* ^.+\\.(?:jpg|png|css|gif|jpeg|js|swf)$ {\n    #    # Defining the valid referers.\n    #    valid_referers none blocked *.mysite.com othersite.com;\n    #    if ($invalid_referer)  {\n    #        return 444;\n    #    }\n    #    expires max;\n    #    break;\n    #}\n\n    location /robots.txt {\n        return 200 \"User-agent: *\\nDisallow: /\";\n    }\n\n    # Support for favicon. Return a 204 (No Content) if the favicon doesn't exist.\n    location = /favicon.ico {\n        try_files /favicon.ico =204;\n    }\n\n    # Try all locations and relay to index.php as a fallback.\n    location / {\n        try_files $uri /index.php;\n    }\n\n    # Relay all index.php requests to fastcgi.\n    location ~* ^/(?:index|piwik)\\.php$ {\n        fastcgi_pass unix:/var/run/php5-fpm.sock;\n    }\n\n    # Any other attempt to access PHP files returns a 404.\n    location ~* ^.+\\.php$ {\n        return 404;\n    }\n\n    # Return a 404 for all text files.\n    location ~* ^/(?:README|LICENSE[^.]*|LEGALNOTICE)(?:\\.txt)*$ {\n        return 404;\n    }\n\n    # # The 404 is signaled through a static page.\n    # error_page  404  /404.html;\n\n    # ## All server error pages go to 50x.html at the document root.\n    # error_page 500 502 503 504  /50x.html;\n    # location = /50x.html {\n    #    root   /var/www/nginx-default;\n    # }`\n\n    ssl on;\n    ssl_certificate /etc/ssl/certs/dune-gandi.crt;\n    ssl_certificate_key /etc/ssl/private/dune.key;\n\n    ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;\n    ssl_ciphers RC4:HIGH:!aNULL:!MD5;\n    ssl_prefer_server_ciphers on;\n\n    ssl_session_cache shared:SSL:20m;\n    ssl_session_timeout 10m;\n    add_header Strict-Transport-Security \"max-age=31536000\";\n}\n\n",
+					"file": "/tmp/dune/ga",
+					"file_size": 2182,
+					"file_write_time": 1445358318000000,
+					"settings":
+					{
+						"buffer_size": 2182,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/tmp/dune/jp",
+					"settings":
+					{
+						"buffer_size": 951,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/tmp/dune/roundcube",
+					"settings":
+					{
+						"buffer_size": 1597,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"package inst",
+						"Package Control: Install Package"
+					],
+					[
+						"package ins",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/jp/src/perso/barreverte.github.io/css/theme.css",
+				"/home/jp/src/perso/barreverte.github.io/css/fonts.css",
+				"/home/jp/src/perso/barreverte.github.io/_posts/2014-04-22-creer-un-chroot-part-2-se-connecter.markdown",
+				"/home/jp/src/perso/barreverte.github.io/_posts/2015-08-25-optimiser-son-client-ssh.md",
+				"/home/jp/src/perso/barreverte.github.io/_includes/header.html",
+				"/home/jp/src/perso/jpcaruana.github.io/404.md",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/footer.html",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/jp.css",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/head.html",
+				"/home/jp/src/perso/jpcaruana.github.io/css/style.css",
+				"/home/jp/src/perso/jpcaruana.github.io/_layouts/default.html",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/links.html",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/hyde.css",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/poole.css",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/sidebar.html",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/syntax.css",
+				"/home/jp/src/perso/jpcaruana.github.io/_config.yml.emac",
+				"/home/jp/src/perso/dockerfiles/carton/Dockerfile",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/astuce_mongo_docker_systemd.md",
+				"/home/jp/src/t2s/core/ws-auth/src/main/doc/footer.md",
+				"/home/jp/t2s/MEP réorganisation des files users.md",
+				"/home/jp/src/t2s/core/ws-email/src/main/doc/header.md",
+				"/home/jp/src/t2s/core/ws-catalog/src/main/doc/header.md",
+				"/home/jp/src/t2s/core/ws-catalog/src/main/doc/footer.md",
+				"/home/jp/src/t2s/core/ws-user/src/main/doc/footer.md",
+				"/home/jp/src/t2s/core/ws-user/src/main/doc/header.md",
+				"/home/jp/src/t2s/core/ws-auth/src/main/doc/header.md",
+				"/home/jp/src/t2s/core/scripts/mep_rabbit",
+				"/home/jp/src/perso/barreverte.github.io/_posts/2012-08-27-binomer-avec-un-clavier-dvorak-et-un-clavier-azerty.markdown",
+				"/home/jp/src/perso/barreverte.github.io/_config.yml",
+				"/home/jp/src/perso/barreverte.github.io/_includes/disqus-comments.html",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/default.html",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/default_with_pagination.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/sidebar.html",
+				"/home/jp/src/perso/barreverte.github.io/404.md",
+				"/home/jp/src/perso/barreverte.github.io/_includes/links-list.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/links-list.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/fiche-lecture-droidmaker.md",
+				"/home/jp/src/perso/barreverte.github.io/about.md",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/post.html",
+				"/home/jp/src/perso/barreverte.github.io/archive.html",
+				"/home/jp/src/perso/barreverte.github.io/index.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/pagination.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/footer.html",
+				"/home/jp/src/perso/barreverte.github.io/feed",
+				"/home/jp/src/perso/barreverte.github.io/archive.md",
+				"/home/jp/src/perso/barreverte.github.io/404.html",
+				"/home/jp/src/perso/barreverte.github.io/hashes_ipfs.txt",
+				"/home/jp/src/perso/barreverte.github.io/hash3.txt",
+				"/home/jp/src/perso/barreverte.github.io/hash2.txt",
+				"/home/jp/src/perso/barreverte.github.io/hash.txt",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/etre-alerte-en-cas-de-OutOfMemoryexception.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/optimiser-son-client-ssh.md",
+				"/home/jp/src/t2s/documentation/support/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-fr/Apis.md",
+				"/home/jp/src/t2s/documentation/support-fr/DataExport.md",
+				"/home/jp/src/t2s/documentation/support-fr/EmailCreation.md",
+				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfRecommendationSpacesOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-fr/PrestashopModuleInstallation.md",
+				"/home/jp/src/t2s/documentation/support-fr/index.md",
+				"/home/jp/src/t2s/documentation/index-es.md",
+				"/home/jp/src/t2s/documentation/index-fr.md",
+				"/home/jp/src/t2s/documentation/_includes/head.html",
+				"/home/jp/src/t2s/documentation/_config.yml",
+				"/home/jp/src/t2s/documentation/_includes/end.html",
+				"/home/jp/src/t2s/documentation/_includes/header.html",
+				"/home/jp/src/t2s/documentation/_includes/header_fr.html",
+				"/home/jp/src/t2s/documentation/_includes/header_es.html",
+				"/home/jp/src/t2s/documentation/_includes/menu.html",
+				"/home/jp/src/t2s/documentation/_includes/menu_es.html",
+				"/home/jp/src/t2s/documentation/_includes/menu_fr.html",
+				"/home/jp/src/t2s/documentation/support/Apis.md",
+				"/home/jp/src/t2s/documentation/support/DataExport.md",
+				"/home/jp/src/t2s/documentation/support/EmailCreation.md",
+				"/home/jp/src/t2s/documentation/support/IntegrationOfRecommendationSpacesOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support/PrestashopModuleInstallation.md",
+				"/home/jp/src/t2s/documentation/support/index.md",
+				"/home/jp/src/t2s/documentation/support-es/index.md",
+				"/home/jp/src/t2s/documentation/support-es/CatalogXMLExport.md",
+				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/index.md",
+				"/home/jp/src/t2s/documentation/README.md",
+				"/home/jp/src/t2s/documentation/_layouts/default_es.html",
+				"/home/jp/src/t2s/documentation/support-es/build_html",
+				"/home/jp/src/t2s/documentation/support-fr/Support.md",
+				"/home/jp/src/t2s/documentation/support-fr/CatalogXMLExport.md",
+				"/home/jp/src/t2s/documentation/support-fr/MagentoModuleInstallation.md",
+				"/home/jp/src/t2s/documentation/support-fr/apicouchebasserecot2s.md",
+				"/home/jp/src/t2s/documentation/support/MagentoModuleInstallation.md",
+				"/home/jp/src/t2s/documentation/support/Support.md",
+				"/home/jp/src/t2s/documentation/_layouts/default_fr.html",
+				"/home/jp/src/t2s/documentation/_includes/menu-fr.html",
+				"/home/jp/src/t2s/documentation/index.html",
+				"/home/jp/src/t2s/documentation/support/apicouchebasserecot2s.md",
+				"/home/jp/src/t2s/documentation/support/ImplementationDuTrackingSurLeSiteMarchand.html",
+				"/home/jp/src/t2s/documentation/_layouts/default.html",
+				"/home/jp/src/t2s/documentation/_includes/begin.htm",
+				"/home/jp/src/t2s/documentation/support/Apis.html",
+				"/home/jp/src/t2s/documentation/support/CatalogXMLExport.md",
+				"/home/jp/src/t2s/documentation/support/DataExport.html",
+				"/home/jp/src/t2s/documentation/support/EmailCreation.html",
+				"/home/jp/src/perso/jpcaruana.github.io/emac/usa/usa2.tex.md",
+				"/home/jp/src/perso/jpcaruana.github.io/libre.md",
+				"/home/jp/src/perso/jpcaruana.github.io/chap1ros.md",
+				"/home/jp/src/perso/jpcaruana.github.io/chap2ros.md",
+				"/home/jp/src/perso/jpcaruana.github.io/chap3ros.md",
+				"/home/jp/src/perso/jpcaruana.github.io/emac/index.md",
+				"/home/jp/src/perso/jpcaruana.github.io/emac/usa/usa.tex.md",
+				"/home/jp/src/perso/jpcaruana.github.io/libre/libre.md",
+				"/home/jp/src/perso/jpcaruana.github.io/libre/rapport.tex",
+				"/home/jp/src/perso/jpcaruana.github.io/libre/exemples.md",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/menu.html",
+				"/home/jp/src/perso/jpcaruana.github.io/about.md",
+				"/home/jp/src/perso/jpcaruana.github.io/_config.yml",
+				"/home/jp/src/perso/jpcaruana.github.io/_includes/header.html",
+				"/home/jp/src/perso/jpcaruana.github.io/index.md",
+				"/home/jp/src/perso/jpcaruana.github.io/cv.md",
+				"/home/jp/src/perso/rust/hello_world/Cargo.toml",
+				"/home/jp/src/perso/rust/hello_world/src/main.rs",
+				"/home/jp/src/perso/rust/001/Cargo.toml",
+				"/home/jp/src/perso/rust/001/Cargo.lock",
+				"/home/jp/src/perso/rust/001/src/main.rs",
+				"/tmp/tyk/main.go",
+				"/tmp/tyk/api.go",
+				"/tmp/tyk/middleware_rate_limiting.go",
+				"/tmp/tyk/Makefile",
+				"/tmp/tyk/oauth_manager.go"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"ownload_button",
+					"article",
+					"{{ site.baseurl }}",
+					"em",
+					"ô",
+					"à",
+					"é",
+					"</tt>",
+					"<tt>",
+					"/\n",
+					"````javascript",
+					"/support-fr",
+					"(/images/",
+					"](/",
+					"/support-es",
+					"/support",
+					"/documentation",
+					"/support/",
+					"/documentation/",
+					">",
+					"/documentation",
+					"/support/",
+					"/documentation",
+					"connection",
+					"quote",
+					"\\",
+					"textsc",
+					"\\<\\< ",
+					" \\>\\>",
+					"\\<\\< ",
+					",\n",
+					"boite",
+					"vcard",
+					">\n",
+					"Environnement et technologies :",
+					"Environnement et technologies:",
+					"LoadPoliciesFromFile",
+					"getPolicies",
+					"loadApps",
+					"getAPISpecs",
+					"StartPubSubLoop",
+					"loadAPIEndpoints",
+					"apiHandler",
+					"loadAPIEndpoints",
+					"displayConfig",
+					"</p>",
+					"<p>",
+					"git",
+					"h2",
+					"'\n",
+					"\"\n",
+					"00",
+					"=$"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"{{ \"/\" | prepend: site.url }}",
+					"ô",
+					"à",
+					"é",
+					"`",
+					"````js",
+					"{{ site.url }}/support-fr",
+					"({{ site.url }}/images/",
+					"](/{{ site.url }}/",
+					"{{ site.url }}/support-es",
+					"{{ site.url }}/support",
+					"{{ site.url }}",
+					"/support-es/",
+					"/",
+					"",
+					"/support-fr/",
+					"",
+					"connexion",
+					"",
+					"\"",
+					"_Environnement et technologies_ :",
+					"",
+					"h1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/tmp/dune"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/tmp/dune/default",
+							"settings":
+							{
+								"buffer_size": 561,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										527,
+										527
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/tmp/dune/ga",
+							"settings":
+							{
+								"buffer_size": 2182,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1621,
+										1621
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 337.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/tmp/dune/jp",
+							"settings":
+							{
+								"buffer_size": 951,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										624,
+										624
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/tmp/dune/roundcube",
+							"settings":
+							{
+								"buffer_size": 1597,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										455,
+										455
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.9o:///home/jp/src/t2s":
+			{
+				"height": 100.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 100.0
+			},
+			"position": "0,1,0,0,0,0,22,640,502,3840,1200",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"buildr.builfile",
+						"buildr.buildfile"
+					],
+					[
+						"generate.rb",
+						"lib/buildr/core/generate.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 352.0,
+			"status_bar_visible": true,
+			"window_id": 38,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
