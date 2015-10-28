@@ -1,4 +1,3 @@
-*.pyc
-*.cache
-*.sublime_session
-sublime-text-2/Backup
+.idea
+*.iml
+*.ipr
