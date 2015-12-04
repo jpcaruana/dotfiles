@@ -82,6 +82,7 @@ set ts=2
 " associations de fichiers
 au BufNewFile,BufRead buildfile setlocal ft=ruby
 
+au BufNewFile,BufRead *.gradle setf groovy
 
 " Tell vim to remember certain things when we exit                                                                                                           
 "  '10 : marks will be remembered for up to 10 previously edited files
