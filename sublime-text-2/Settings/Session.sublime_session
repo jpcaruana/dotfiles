@@ -1,12 +1,12 @@
 {
 	"folder_history":
 	[
+		"/home/jp/src/perso/jpcaruana.github.io",
+		"/home/jp/src/t2s/documentation",
 		"/tmp/dune",
 		"/tmp/Expose",
 		"/home/jp/src/perso/barreverte.github.io",
-		"/home/jp/src/perso/jpcaruana.github.io",
 		"/home/jp/src/perso/dockerfiles",
-		"/home/jp/src/t2s/documentation",
 		"/home/jp/src/perso/rust",
 		"/tmp/tyk",
 		"/tmp/grpc-common",
@@ -22,10 +22,10 @@
 		"/home/jp/t2s/mongo",
 		"/home/jp/src/t2s/log-recap"
 	],
-	"last_window_id": 38,
+	"last_window_id": 40,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 480.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -98,6 +98,10 @@
 			},
 			"file_history":
 			[
+				"/home/jp/src/perso/jpcaruana.github.io/_layouts/default.html",
+				"/home/jp/src/t2s/t2s-js/src/header.md",
+				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
 				"/home/jp/src/perso/barreverte.github.io/css/theme.css",
 				"/home/jp/src/perso/barreverte.github.io/css/fonts.css",
 				"/home/jp/src/perso/barreverte.github.io/_posts/2014-04-22-creer-un-chroot-part-2-se-connecter.markdown",
@@ -108,7 +112,6 @@
 				"/home/jp/src/perso/jpcaruana.github.io/public/css/jp.css",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/head.html",
 				"/home/jp/src/perso/jpcaruana.github.io/css/style.css",
-				"/home/jp/src/perso/jpcaruana.github.io/_layouts/default.html",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/links.html",
 				"/home/jp/src/perso/jpcaruana.github.io/public/css/hyde.css",
 				"/home/jp/src/perso/jpcaruana.github.io/public/css/poole.css",
@@ -156,7 +159,6 @@
 				"/home/jp/src/t2s/documentation/support-fr/DataExport.md",
 				"/home/jp/src/t2s/documentation/support-fr/EmailCreation.md",
 				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfRecommendationSpacesOnTheWebsite.md",
-				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
 				"/home/jp/src/t2s/documentation/support-fr/PrestashopModuleInstallation.md",
 				"/home/jp/src/t2s/documentation/support-fr/index.md",
 				"/home/jp/src/t2s/documentation/index-es.md",
@@ -178,7 +180,6 @@
 				"/home/jp/src/t2s/documentation/support/index.md",
 				"/home/jp/src/t2s/documentation/support-es/index.md",
 				"/home/jp/src/t2s/documentation/support-es/CatalogXMLExport.md",
-				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
 				"/home/jp/src/t2s/documentation/index.md",
 				"/home/jp/src/t2s/documentation/README.md",
 				"/home/jp/src/t2s/documentation/_layouts/default_es.html",
@@ -224,8 +225,7 @@
 				"/tmp/tyk/main.go",
 				"/tmp/tyk/api.go",
 				"/tmp/tyk/middleware_rate_limiting.go",
-				"/tmp/tyk/Makefile",
-				"/tmp/tyk/oauth_manager.go"
+				"/tmp/tyk/Makefile"
 			],
 			"find":
 			{
@@ -408,7 +408,7 @@
 			"side_bar_width": 352.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 0.0
+		"new_window_width": 640.0
 	},
 	"windows":
 	[
@@ -450,38 +450,68 @@
 			"buffers":
 			[
 				{
-					"file": "/tmp/dune/default",
+					"file": "/home/jp/src/t2s/documentation/support-fr/Apis.md",
 					"settings":
 					{
-						"buffer_size": 561,
+						"buffer_size": 434,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "server {\n    listen 81;\n    server_name ga.dune.io;\n    rewrite ^(.*) https://$server_name$1 permanent;\n}\n\nserver {\n    listen 443;\n    server_name ga.dune.io;\n    root  /var/www/piwik;\n    index  index.php index.html;\n\n    access_log /var/log/nginx/ga_access.log;\n    error_log /var/log/nginx/ga_error.log;\n\n    # Disable all methods besides HEAD, GET and POST.\n    if ($request_method !~ ^(GET|HEAD|POST)$ ) {\n        return 444;\n    }\n\n    # Disallow any usage of piwik assets if referer is non valid.\n    #location ~* ^.+\\.(?:jpg|png|css|gif|jpeg|js|swf)$ {\n    #    # Defining the valid referers.\n    #    valid_referers none blocked *.mysite.com othersite.com;\n    #    if ($invalid_referer)  {\n    #        return 444;\n    #    }\n    #    expires max;\n    #    break;\n    #}\n\n    location /robots.txt {\n        return 200 \"User-agent: *\\nDisallow: /\";\n    }\n\n    # Support for favicon. Return a 204 (No Content) if the favicon doesn't exist.\n    location = /favicon.ico {\n        try_files /favicon.ico =204;\n    }\n\n    # Try all locations and relay to index.php as a fallback.\n    location / {\n        try_files $uri /index.php;\n    }\n\n    # Relay all index.php requests to fastcgi.\n    location ~* ^/(?:index|piwik)\\.php$ {\n        fastcgi_pass unix:/var/run/php5-fpm.sock;\n    }\n\n    # Any other attempt to access PHP files returns a 404.\n    location ~* ^.+\\.php$ {\n        return 404;\n    }\n\n    # Return a 404 for all text files.\n    location ~* ^/(?:README|LICENSE[^.]*|LEGALNOTICE)(?:\\.txt)*$ {\n        return 404;\n    }\n\n    # # The 404 is signaled through a static page.\n    # error_page  404  /404.html;\n\n    # ## All server error pages go to 50x.html at the document root.\n    # error_page 500 502 503 504  /50x.html;\n    # location = /50x.html {\n    #    root   /var/www/nginx-default;\n    # }`\n\n    ssl on;\n    ssl_certificate /etc/ssl/certs/dune-gandi.crt;\n    ssl_certificate_key /etc/ssl/private/dune.key;\n\n    ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;\n    ssl_ciphers RC4:HIGH:!aNULL:!MD5;\n    ssl_prefer_server_ciphers on;\n\n    ssl_session_cache shared:SSL:20m;\n    ssl_session_timeout 10m;\n    add_header Strict-Transport-Security \"max-age=31536000\";\n}\n\n",
-					"file": "/tmp/dune/ga",
-					"file_size": 2182,
-					"file_write_time": 1445358318000000,
+					"file": "/home/jp/src/t2s/documentation/support-es/Apis.md",
 					"settings":
 					{
-						"buffer_size": 2182,
+						"buffer_size": 437,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/tmp/dune/jp",
+					"file": "/home/jp/src/t2s/documentation/support/Apis.md",
 					"settings":
 					{
-						"buffer_size": 951,
+						"buffer_size": 419,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/tmp/dune/roundcube",
+					"file": "/home/jp/src/t2s/documentation/_includes/menu.html",
 					"settings":
 					{
-						"buffer_size": 1597,
+						"buffer_size": 1621,
 						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/jp/src/t2s/documentation/_includes/menu_es.html",
+					"settings":
+					{
+						"buffer_size": 1732,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/jp/src/t2s/documentation/_includes/menu_fr.html",
+					"settings":
+					{
+						"buffer_size": 1727,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/jp/src/t2s/documentation/_config.yml",
+					"settings":
+					{
+						"buffer_size": 428,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/jp/src/t2s/documentation/ADR-14.md",
+					"settings":
+					{
+						"buffer_size": 6363,
+						"line_ending": "Unix",
+						"name": "# ADR-014 : L'authentification centralisée par un"
 					}
 				}
 			],
@@ -521,6 +551,17 @@
 			},
 			"file_history":
 			[
+				"/home/jp/src/t2s/documentation/index.md",
+				"/home/jp/src/t2s/documentation/support/index.md",
+				"/home/jp/src/t2s/documentation/support-fr/index.md",
+				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/_config.yml",
+				"/home/jp/src/t2s/documentation/_includes/head.html",
+				"/home/jp/src/t2s/documentation/css/t2s.css",
+				"/home/jp/src/perso/jpcaruana.github.io/_layouts/default.html",
+				"/home/jp/src/t2s/t2s-js/src/header.md",
 				"/home/jp/src/perso/barreverte.github.io/css/theme.css",
 				"/home/jp/src/perso/barreverte.github.io/css/fonts.css",
 				"/home/jp/src/perso/barreverte.github.io/_posts/2014-04-22-creer-un-chroot-part-2-se-connecter.markdown",
@@ -531,7 +572,6 @@
 				"/home/jp/src/perso/jpcaruana.github.io/public/css/jp.css",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/head.html",
 				"/home/jp/src/perso/jpcaruana.github.io/css/style.css",
-				"/home/jp/src/perso/jpcaruana.github.io/_layouts/default.html",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/links.html",
 				"/home/jp/src/perso/jpcaruana.github.io/public/css/hyde.css",
 				"/home/jp/src/perso/jpcaruana.github.io/public/css/poole.css",
@@ -574,18 +614,13 @@
 				"/home/jp/src/perso/barreverte.github.io/hash.txt",
 				"/home/jp/src/perso/barreverte.github.io/_drafts/etre-alerte-en-cas-de-OutOfMemoryexception.md",
 				"/home/jp/src/perso/barreverte.github.io/_drafts/optimiser-son-client-ssh.md",
-				"/home/jp/src/t2s/documentation/support/IntegrationOfTheTrackingOnTheWebsite.md",
 				"/home/jp/src/t2s/documentation/support-fr/Apis.md",
 				"/home/jp/src/t2s/documentation/support-fr/DataExport.md",
 				"/home/jp/src/t2s/documentation/support-fr/EmailCreation.md",
 				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfRecommendationSpacesOnTheWebsite.md",
-				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
 				"/home/jp/src/t2s/documentation/support-fr/PrestashopModuleInstallation.md",
-				"/home/jp/src/t2s/documentation/support-fr/index.md",
 				"/home/jp/src/t2s/documentation/index-es.md",
 				"/home/jp/src/t2s/documentation/index-fr.md",
-				"/home/jp/src/t2s/documentation/_includes/head.html",
-				"/home/jp/src/t2s/documentation/_config.yml",
 				"/home/jp/src/t2s/documentation/_includes/end.html",
 				"/home/jp/src/t2s/documentation/_includes/header.html",
 				"/home/jp/src/t2s/documentation/_includes/header_fr.html",
@@ -598,11 +633,8 @@
 				"/home/jp/src/t2s/documentation/support/EmailCreation.md",
 				"/home/jp/src/t2s/documentation/support/IntegrationOfRecommendationSpacesOnTheWebsite.md",
 				"/home/jp/src/t2s/documentation/support/PrestashopModuleInstallation.md",
-				"/home/jp/src/t2s/documentation/support/index.md",
 				"/home/jp/src/t2s/documentation/support-es/index.md",
 				"/home/jp/src/t2s/documentation/support-es/CatalogXMLExport.md",
-				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
-				"/home/jp/src/t2s/documentation/index.md",
 				"/home/jp/src/t2s/documentation/README.md",
 				"/home/jp/src/t2s/documentation/_layouts/default_es.html",
 				"/home/jp/src/t2s/documentation/support-es/build_html",
@@ -646,9 +678,7 @@
 				"/home/jp/src/perso/rust/001/src/main.rs",
 				"/tmp/tyk/main.go",
 				"/tmp/tyk/api.go",
-				"/tmp/tyk/middleware_rate_limiting.go",
-				"/tmp/tyk/Makefile",
-				"/tmp/tyk/oauth_manager.go"
+				"/tmp/tyk/middleware_rate_limiting.go"
 			],
 			"find":
 			{
@@ -666,6 +696,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					">\n",
 					"ownload_button",
 					"article",
 					"{{ site.baseurl }}",
@@ -759,34 +790,34 @@
 			"folders":
 			[
 				{
-					"path": "/tmp/dune"
+					"path": "/home/jp/src/t2s/documentation"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 7,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/tmp/dune/default",
+							"file": "/home/jp/src/t2s/documentation/support-fr/Apis.md",
 							"settings":
 							{
-								"buffer_size": 561,
+								"buffer_size": 434,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										527,
-										527
+										432,
+										432
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/Markdown/Markdown.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -796,53 +827,49 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/tmp/dune/ga",
+							"file": "/home/jp/src/t2s/documentation/support-es/Apis.md",
 							"settings":
 							{
-								"buffer_size": 2182,
+								"buffer_size": 437,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1621,
-										1621
+										293,
+										293
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Markdown/Markdown.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 337.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/tmp/dune/jp",
+							"file": "/home/jp/src/t2s/documentation/support/Apis.md",
 							"settings":
 							{
-								"buffer_size": 951,
+								"buffer_size": 419,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										624,
-										624
+										212,
+										212
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Markdown/Markdown.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -852,28 +879,137 @@
 						},
 						{
 							"buffer": 3,
-							"file": "/tmp/dune/roundcube",
+							"file": "/home/jp/src/t2s/documentation/_includes/menu.html",
 							"settings":
 							{
-								"buffer_size": 1597,
+								"buffer_size": 1621,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										455,
-										455
+										1150,
+										1150
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"syntax": "Packages/HTML/HTML.tmLanguage",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/jp/src/t2s/documentation/_includes/menu_es.html",
+							"settings":
+							{
+								"buffer_size": 1732,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1732,
+										1732
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/jp/src/t2s/documentation/_includes/menu_fr.html",
+							"settings":
+							{
+								"buffer_size": 1727,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1727,
+										1727
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/jp/src/t2s/documentation/_config.yml",
+							"settings":
+							{
+								"buffer_size": 428,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										414,
+										414
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/YAML/YAML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/jp/src/t2s/documentation/ADR-14.md",
+							"settings":
+							{
+								"buffer_size": 6363,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4867,
+										4867
+									]
+								],
+								"settings":
+								{
+									"auto_name": "# ADR-014 : L'authentification centralisée par un",
+									"syntax": "Packages/Markdown/Markdown.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1383.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -920,7 +1056,7 @@
 			{
 				"height": 100.0
 			},
-			"position": "0,1,0,0,0,0,22,640,502,3840,1200",
+			"position": "0,1,0,0,0,0,0,0,0,3840,1200",
 			"replace":
 			{
 				"height": 64.0
@@ -956,7 +1092,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 352.0,
 			"status_bar_visible": true,
-			"window_id": 38,
+			"window_id": 39,
 			"workspace_name": ""
 		}
 	],
