@@ -32,6 +32,7 @@
 	lambda = commit -am\"[refactor] java8: lambdas\"
 	collect = commit -am\"[refactor] java8: collect\"
 	rename = commit -am\"[refactor] rename\"
+  wip = commit -am\"WIP\"
 	st = status --short
 	co = checkout
 	oc = checkout
