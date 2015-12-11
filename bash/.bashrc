@@ -3,7 +3,7 @@
 # for examples
 
 # If not running interactively, don't do anything
-if [[ -n "$PS1" ]] ; then
+[ -z "$PS1" ] && return
 
 # don't put duplicate lines in the history. See bash(1) for more options
 # ... or force ignoredups and ignorespace
@@ -37,10 +37,9 @@ function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ [\1$(parse_git_dirty)]/"
 }
 
-
 exit_status='$(exit_code=$?; [ $exit_code -eq 0 ] || printf %s $exit_code " ")'
 if [ -f ~/prompt-git.bash ]; then
-	source ~/prompt-git.bash
+    source ~/prompt-git.bash
 fi
 export PS1="\033[1;31m$exit_status\033[m$PS1"
 
@@ -51,7 +50,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
-		alias most='most -c'
+    alias most='most -c'
 fi
 
 # some more ls aliases
@@ -80,10 +79,6 @@ fi
 
 export LESS=-RFX
 export EDITOR=vim
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-fi
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # alias
 alias eclipse='/opt/eclipse/eclipse'
