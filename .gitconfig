@@ -1,7 +1,7 @@
 [user]
 	name = Jean-Philippe CARUANA
 	email = jp@target2sell.com
-	signingkey = 6AEA0762
+	useconfigonly = true
 [color]
 	ui = auto
 	interactive = auto
