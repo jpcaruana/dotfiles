@@ -112,3 +112,5 @@ source '/opt/google-cloud-sdk/completion.bash.inc'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export GRADLE_OPTS="-Dorg.gradle.daemon=true"
