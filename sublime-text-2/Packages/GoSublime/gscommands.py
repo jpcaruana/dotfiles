@@ -29,24 +29,36 @@ class GsFmtCommand(sublime_plugin.TextCommand):
 		return scope_ok and gs.setting('fmt_enabled') is True
 
 	def run(self, edit):
+		domain = '%s: GsFmt' % DOMAIN
 		vsize = self.view.size()
 		src = self.view.substr(sublime.Region(0, vsize))
 		if not src.strip():
 			return
 
 		src, err = mg9.fmt(self.view.file_name(), src)
-		if err:
-			gs.println(DOMAIN, "cannot fmt file. error: `%s'" % err)
-			return
 
-		if not src.strip():
-			gs.println(DOMAIN, "cannot fmt file. it appears to be empty")
-			return
+		if not err and not src.strip():
+			err = "the fmt'd file result appears to be empty"
 
-		_, err = gspatch.merge(self.view, vsize, src, edit)
 		if err:
-			msg = 'PANIC: Cannot fmt file. Check your source for errors (and maybe undo any changes).'
-			sublime.error_message("%s: %s: Merge failure: `%s'" % (DOMAIN, msg, err))
+			short_err = '%s: %s... error logged to console' % (domain, err[:15])
+
+			def clear_status():
+				if self.view.get_status(domain) == short_err:
+					self.view.set_status(domain, '')
+
+			gs.println(domain, err)
+			self.view.set_status(domain, short_err)
+			sublime.set_timeout(clear_status, 10000)
+
+			if 'ipc_timeout' in err:
+				self.view.show_popup("%s: %s" % (domain, err.replace('\n', '<br>')))
+
+		if src:
+			_, err = gspatch.merge(self.view, vsize, src, edit)
+			if err:
+				msg = 'PANIC: Cannot fmt file. Check your source for errors (and maybe undo any changes).'
+				sublime.error_message("%s: %s: Merge failure: `%s'" % (domain, msg, err))
 
 class GsFmtSaveCommand(sublime_plugin.TextCommand):
 	def is_enabled(self):
@@ -82,6 +94,12 @@ class GsGotoRowColCommand(sublime_plugin.TextCommand):
 			h = s + m
 			sublime.set_timeout(show, s)
 			sublime.set_timeout(hide, h)
+
+class GsOpenMargoExtensionPackageCommand(sublime_plugin.WindowCommand):
+	def run(self):
+		fn = mg9.ext_main_file(True)
+		if fn:
+			gs.focus(fn)
 
 class GsNewGoFileCommand(sublime_plugin.WindowCommand):
 	def run(self):

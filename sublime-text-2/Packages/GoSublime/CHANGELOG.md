@@ -1,11 +1,82 @@
+**WARNING:**
+
+If you automatically update GoSublime (or any other plugin with run-time state)
+you run the risk of breaking the plugin or crashing Sublime Text,
+because Sublime Text (and Package Control) cannot update such plugins properly without a restart.
+
+You are advised to only *manually* update such plugins and *restart Sublime Text*
+
+**Note:**
+
+* It is assumed that you have read and understood the contents of SUPPORT.md
+* You may need to restart Sublime Text after GoSublime updates
+* If you use the `fmt_cmd` setting with `goimports` or any other slow command
+   you should read and understand the `ipc_timeout` setting documented in `GoSublime.sublime-settings`
+
+
 GoSublime Changes
 -----------------
 
+## 16.05.07-1
+	* Add initial support for MarGo extensions.
+	  Press ctrl+.,ctrl+./super+.,super+. and type "Edit MarGo Extension" to open the the extension file.
+	  If you your $GOPATH/src contains directories with lots of files or you'd otherwise like
+	  to skip when looking up import paths, you can do so by configuring the `ImportPaths` option:
 
-** Please be aware that go1 is no longer supported. The minimum supported version is go1.1.2 **
+		package gosublime
+
+		import (
+			"disposa.blue/margo"
+			"disposa.blue/margo/meth/importpaths"
+			"path/filepath"
+			"strings"
+		)
+
+		func init() {
+			margo.Configure(func(o *margo.Opts) {
+				o.ImportPaths = importpaths.MakeImportPathsFunc(func(path string) bool {
+					// note: the default filter includes node_modules
+
+					// use the default filter
+					return importpaths.PathFilter(path) &&
+						// don't descened into huge node_modules directory
+						!strings.Contains(path, filepath.Base("node_modules"))
+				})
+			})
+		}
 
 
-Note: you may need to restart Sublime Text after GoSublime updates
+## 16.05.03-2
+	* fallback to the internal MarGo fmt if `fmt_cmd` fails
+
+## 16.05.03-1
+	* fix incomplete gocode update
+
+## 16.05.01-1
+	* update gocode
+	* add struct fields to the declarations palettes
+
+## 16.04.29-1
+	* the imports list (ctrl+.,ctrl+p/super+.,super+p) is now sourced from source code packages only
+	  and recognises vendored packages
+
+## 16.04.08-2
+	* If you use the `fmt_cmd` setting with `goimports` or any other slow command
+        you should read and understand the `ipc_timeout` setting documented in `GoSublime.sublime-settings`
+
+## 16.04.08-1
+	* added a new SUPPORT.md file calrify what level of support can be expected from use of GoSublime
+	* you are advised to reach and understand its contents
+
+## 16.03.22-1
+	* add new pseudo env var _dir (`dirname($_fn)`) and do env var substitution on fmt_cmd
+	* use `"fmt_cmd": ["goimports", "-srcdir", "$_dir"]` for newer version of goimports
+
+## 16.01.09-1
+	* Output GOROOT and GOPATH to the ST console when they change
+
+## 15.12.31-1
+	* Update gocode (struct field completion, go15vendor completion, etc.)
 
 ## 14.02.25-1
 	* added setting `installsuffix`. this should help enabling completion and pkg importing

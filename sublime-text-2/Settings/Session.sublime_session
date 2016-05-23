@@ -1,11 +1,14 @@
 {
 	"folder_history":
 	[
-		"/home/jp/src/perso/jpcaruana.github.io",
 		"/home/jp/src/t2s/documentation",
+		"/tmp/photoblog",
+		"/home/jp/src/perso/barreverte.github.io",
+		"/home/jp/src/perso/jpcaruana.github.io",
+		"/tmp",
+		"/tmp/jptest",
 		"/tmp/dune",
 		"/tmp/Expose",
-		"/home/jp/src/perso/barreverte.github.io",
 		"/home/jp/src/perso/dockerfiles",
 		"/home/jp/src/perso/rust",
 		"/tmp/tyk",
@@ -22,7 +25,7 @@
 		"/home/jp/t2s/mongo",
 		"/home/jp/src/t2s/log-recap"
 	],
-	"last_window_id": 40,
+	"last_window_id": 56,
 	"settings":
 	{
 		"new_window_height": 480.0,
@@ -98,18 +101,72 @@
 			},
 			"file_history":
 			[
+				"/tmp/photoblog/sigal.conf.py",
+				"/home/jp/src/perso/dotfiles/sublime-text-2/Packages/GoSublime/CHANGELOG.md",
+				"/home/jp/src/perso/barreverte.github.io/_config.yml",
+				"/home/jp/src/perso/barreverte.github.io/categories.html",
+				"/home/jp/src/perso/barreverte.github.io/tags.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/categorylist.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/taglist.html",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/none",
+				"/home/jp/src/perso/barreverte.github.io/_includes/article.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/header.html",
+				"/home/jp/src/perso/barreverte.github.io/css/theme.css",
+				"/home/jp/src/perso/barreverte.github.io/_includes/pageslist.html",
+				"/home/jp/src/perso/barreverte.github.io/archive.html",
+				"/home/jp/src/perso/barreverte.github.io/index.html",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/une-equipe-agile-comme-dr-house.md",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/default.html",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/le_a3_comme_outil_de_communication.md",
+				"/home/jp/src/perso/barreverte.github.io/.travis.yml",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/une-idee-dorganisation-apprenante.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/tester-les-logs-laprecision-dufeedback.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/tester-les-logs-espionner-log4j.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/tester-les-logs-assertions.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/scrum_forfait.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/roi-des-tests-automatiques.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/mesure-du-code-et-qualite.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/lencodage-des-caracteres-parent-pauvre-de-linformatique.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/le-respect-d-une-organiation-pour-les-personnes.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/ecrire-un-livre-en-5-jours-ce-que-j-ai-appris.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/des-assertions-plus-lisibles-avec-fest-assert.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/automatiser-une-pratique-dans-un-alias.md",
+				"/home/jp/src/perso/dotfiles/sublime-text-2/Packages/GoSublime/USAGE.md",
+				"/home/jp/src/perso/barreverte.github.io/_posts/2011-11-21-une-courte-introduction-a-redis.markdown",
+				"/home/jp/src/t2s/documentation/support-fr/MyShoppingAssistant.md",
+				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/_config.yml",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/fiche-lecture-droidmaker.md",
+				"/home/jp/src/perso/barreverte.github.io/Gemfile",
+				"/home/jp/src/perso/barreverte.github.io/jekyll_docker.sh",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/default_with_pagination.html",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/post.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/footer.html",
+				"/home/jp/src/perso/barreverte.github.io/Gemfile.lock",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/jp.css",
+				"/tmp/Madison Island.html",
+				"/tmp/jptest/jptest.lektorproject",
+				"/home/jp/src/t2s/documentation/ADR-14.md",
+				"/home/jp/src/t2s/documentation/support-fr/Apis.md",
+				"/home/jp/src/t2s/documentation/support-es/Apis.md",
+				"/home/jp/src/t2s/documentation/support/Apis.md",
+				"/home/jp/src/t2s/documentation/_includes/menu.html",
+				"/home/jp/src/t2s/documentation/_includes/menu_es.html",
+				"/home/jp/src/t2s/documentation/_includes/menu_fr.html",
+				"/home/jp/src/t2s/documentation/index.md",
+				"/home/jp/src/t2s/documentation/support/index.md",
+				"/home/jp/src/t2s/documentation/support-fr/index.md",
+				"/home/jp/src/t2s/documentation/_includes/head.html",
+				"/home/jp/src/t2s/documentation/css/t2s.css",
 				"/home/jp/src/perso/jpcaruana.github.io/_layouts/default.html",
 				"/home/jp/src/t2s/t2s-js/src/header.md",
-				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
-				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
-				"/home/jp/src/perso/barreverte.github.io/css/theme.css",
 				"/home/jp/src/perso/barreverte.github.io/css/fonts.css",
 				"/home/jp/src/perso/barreverte.github.io/_posts/2014-04-22-creer-un-chroot-part-2-se-connecter.markdown",
 				"/home/jp/src/perso/barreverte.github.io/_posts/2015-08-25-optimiser-son-client-ssh.md",
-				"/home/jp/src/perso/barreverte.github.io/_includes/header.html",
 				"/home/jp/src/perso/jpcaruana.github.io/404.md",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/footer.html",
-				"/home/jp/src/perso/jpcaruana.github.io/public/css/jp.css",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/head.html",
 				"/home/jp/src/perso/jpcaruana.github.io/css/style.css",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/links.html",
@@ -130,21 +187,13 @@
 				"/home/jp/src/t2s/core/ws-auth/src/main/doc/header.md",
 				"/home/jp/src/t2s/core/scripts/mep_rabbit",
 				"/home/jp/src/perso/barreverte.github.io/_posts/2012-08-27-binomer-avec-un-clavier-dvorak-et-un-clavier-azerty.markdown",
-				"/home/jp/src/perso/barreverte.github.io/_config.yml",
 				"/home/jp/src/perso/barreverte.github.io/_includes/disqus-comments.html",
-				"/home/jp/src/perso/barreverte.github.io/_layouts/default.html",
-				"/home/jp/src/perso/barreverte.github.io/_layouts/default_with_pagination.html",
 				"/home/jp/src/perso/barreverte.github.io/_includes/sidebar.html",
 				"/home/jp/src/perso/barreverte.github.io/404.md",
 				"/home/jp/src/perso/barreverte.github.io/_includes/links-list.html",
 				"/home/jp/src/perso/barreverte.github.io/_includes/links-list.md",
-				"/home/jp/src/perso/barreverte.github.io/_drafts/fiche-lecture-droidmaker.md",
 				"/home/jp/src/perso/barreverte.github.io/about.md",
-				"/home/jp/src/perso/barreverte.github.io/_layouts/post.html",
-				"/home/jp/src/perso/barreverte.github.io/archive.html",
-				"/home/jp/src/perso/barreverte.github.io/index.html",
 				"/home/jp/src/perso/barreverte.github.io/_includes/pagination.html",
-				"/home/jp/src/perso/barreverte.github.io/_includes/footer.html",
 				"/home/jp/src/perso/barreverte.github.io/feed",
 				"/home/jp/src/perso/barreverte.github.io/archive.md",
 				"/home/jp/src/perso/barreverte.github.io/404.html",
@@ -154,33 +203,22 @@
 				"/home/jp/src/perso/barreverte.github.io/hash.txt",
 				"/home/jp/src/perso/barreverte.github.io/_drafts/etre-alerte-en-cas-de-OutOfMemoryexception.md",
 				"/home/jp/src/perso/barreverte.github.io/_drafts/optimiser-son-client-ssh.md",
-				"/home/jp/src/t2s/documentation/support/IntegrationOfTheTrackingOnTheWebsite.md",
-				"/home/jp/src/t2s/documentation/support-fr/Apis.md",
 				"/home/jp/src/t2s/documentation/support-fr/DataExport.md",
 				"/home/jp/src/t2s/documentation/support-fr/EmailCreation.md",
 				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfRecommendationSpacesOnTheWebsite.md",
 				"/home/jp/src/t2s/documentation/support-fr/PrestashopModuleInstallation.md",
-				"/home/jp/src/t2s/documentation/support-fr/index.md",
 				"/home/jp/src/t2s/documentation/index-es.md",
 				"/home/jp/src/t2s/documentation/index-fr.md",
-				"/home/jp/src/t2s/documentation/_includes/head.html",
-				"/home/jp/src/t2s/documentation/_config.yml",
 				"/home/jp/src/t2s/documentation/_includes/end.html",
 				"/home/jp/src/t2s/documentation/_includes/header.html",
 				"/home/jp/src/t2s/documentation/_includes/header_fr.html",
 				"/home/jp/src/t2s/documentation/_includes/header_es.html",
-				"/home/jp/src/t2s/documentation/_includes/menu.html",
-				"/home/jp/src/t2s/documentation/_includes/menu_es.html",
-				"/home/jp/src/t2s/documentation/_includes/menu_fr.html",
-				"/home/jp/src/t2s/documentation/support/Apis.md",
 				"/home/jp/src/t2s/documentation/support/DataExport.md",
 				"/home/jp/src/t2s/documentation/support/EmailCreation.md",
 				"/home/jp/src/t2s/documentation/support/IntegrationOfRecommendationSpacesOnTheWebsite.md",
 				"/home/jp/src/t2s/documentation/support/PrestashopModuleInstallation.md",
-				"/home/jp/src/t2s/documentation/support/index.md",
 				"/home/jp/src/t2s/documentation/support-es/index.md",
 				"/home/jp/src/t2s/documentation/support-es/CatalogXMLExport.md",
-				"/home/jp/src/t2s/documentation/index.md",
 				"/home/jp/src/t2s/documentation/README.md",
 				"/home/jp/src/t2s/documentation/_layouts/default_es.html",
 				"/home/jp/src/t2s/documentation/support-es/build_html",
@@ -190,42 +228,7 @@
 				"/home/jp/src/t2s/documentation/support-fr/apicouchebasserecot2s.md",
 				"/home/jp/src/t2s/documentation/support/MagentoModuleInstallation.md",
 				"/home/jp/src/t2s/documentation/support/Support.md",
-				"/home/jp/src/t2s/documentation/_layouts/default_fr.html",
-				"/home/jp/src/t2s/documentation/_includes/menu-fr.html",
-				"/home/jp/src/t2s/documentation/index.html",
-				"/home/jp/src/t2s/documentation/support/apicouchebasserecot2s.md",
-				"/home/jp/src/t2s/documentation/support/ImplementationDuTrackingSurLeSiteMarchand.html",
-				"/home/jp/src/t2s/documentation/_layouts/default.html",
-				"/home/jp/src/t2s/documentation/_includes/begin.htm",
-				"/home/jp/src/t2s/documentation/support/Apis.html",
-				"/home/jp/src/t2s/documentation/support/CatalogXMLExport.md",
-				"/home/jp/src/t2s/documentation/support/DataExport.html",
-				"/home/jp/src/t2s/documentation/support/EmailCreation.html",
-				"/home/jp/src/perso/jpcaruana.github.io/emac/usa/usa2.tex.md",
-				"/home/jp/src/perso/jpcaruana.github.io/libre.md",
-				"/home/jp/src/perso/jpcaruana.github.io/chap1ros.md",
-				"/home/jp/src/perso/jpcaruana.github.io/chap2ros.md",
-				"/home/jp/src/perso/jpcaruana.github.io/chap3ros.md",
-				"/home/jp/src/perso/jpcaruana.github.io/emac/index.md",
-				"/home/jp/src/perso/jpcaruana.github.io/emac/usa/usa.tex.md",
-				"/home/jp/src/perso/jpcaruana.github.io/libre/libre.md",
-				"/home/jp/src/perso/jpcaruana.github.io/libre/rapport.tex",
-				"/home/jp/src/perso/jpcaruana.github.io/libre/exemples.md",
-				"/home/jp/src/perso/jpcaruana.github.io/_includes/menu.html",
-				"/home/jp/src/perso/jpcaruana.github.io/about.md",
-				"/home/jp/src/perso/jpcaruana.github.io/_config.yml",
-				"/home/jp/src/perso/jpcaruana.github.io/_includes/header.html",
-				"/home/jp/src/perso/jpcaruana.github.io/index.md",
-				"/home/jp/src/perso/jpcaruana.github.io/cv.md",
-				"/home/jp/src/perso/rust/hello_world/Cargo.toml",
-				"/home/jp/src/perso/rust/hello_world/src/main.rs",
-				"/home/jp/src/perso/rust/001/Cargo.toml",
-				"/home/jp/src/perso/rust/001/Cargo.lock",
-				"/home/jp/src/perso/rust/001/src/main.rs",
-				"/tmp/tyk/main.go",
-				"/tmp/tyk/api.go",
-				"/tmp/tyk/middleware_rate_limiting.go",
-				"/tmp/tyk/Makefile"
+				"/home/jp/src/t2s/documentation/_layouts/default_fr.html"
 			],
 			"find":
 			{
@@ -240,9 +243,33 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
+					"tag",
+					"tags",
+					"tag",
+					"tags",
+					"/images/",
+					"étati",
+					"trés",
+					"systéme",
+					"symptome",
+					"a3",
+					"}}\">\n",
+					"clickInWL",
+					"« | »",
+					"|",
+					"\"|\"",
+					"|",
+					"\"|\"",
+					"|",
+					"\"|\"",
+					"\"\n",
+					"prp-t2s.js",
+					"userConsent",
+					"prp-t2s.js",
+					">\n",
 					"ownload_button",
 					"article",
 					"{{ site.baseurl }}",
@@ -298,11 +325,24 @@
 					"=$"
 				],
 				"highlight": true,
-				"in_selection": false,
+				"in_selection": true,
 				"preserve_case": false,
 				"regex": false,
 				"replace_history":
 				[
+					"category",
+					"categories",
+					"category",
+					"categories",
+					"/images/droidmaker/",
+					"était",
+					"très",
+					"système",
+					"systèmes",
+					"symptôme",
+					"A3",
+					"« `|` »",
+					"\"`|`\"",
 					"{{ \"/\" | prepend: site.url }}",
 					"ô",
 					"à",
@@ -372,6 +412,10 @@
 			{
 				"height": 100.0
 			},
+			"output.MarGo-output":
+			{
+				"height": 112.0
+			},
 			"replace":
 			{
 				"height": 64.0
@@ -382,6 +426,14 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"index.ht",
+						"index.html"
+					],
+					[
+						"index",
+						"index.html"
+					],
 					[
 						"buildr.builfile",
 						"buildr.buildfile"
@@ -450,68 +502,22 @@
 			"buffers":
 			[
 				{
-					"file": "/home/jp/src/t2s/documentation/support-fr/Apis.md",
+					"file": "/home/jp/src/t2s/documentation/support/IntegrationOfRecommendationSpacesOnTheWebsite.md",
 					"settings":
 					{
-						"buffer_size": 434,
+						"buffer_size": 7906,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/jp/src/t2s/documentation/support-es/Apis.md",
+					"contents": "Sublime Text 2 is no longer supported by GoSublime\nSee https://github.com/DisposaBoy/GoSublime/blob/master/SUPPORT.md#sublime-text\n\nIf you have a *good* reason to not upgrade to Sublime Text 3,\ndiscuss it here https://github.com/DisposaBoy/GoSublime/issues/689\n",
 					"settings":
 					{
-						"buffer_size": 437,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/jp/src/t2s/documentation/support/Apis.md",
-					"settings":
-					{
-						"buffer_size": 419,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/jp/src/t2s/documentation/_includes/menu.html",
-					"settings":
-					{
-						"buffer_size": 1621,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/jp/src/t2s/documentation/_includes/menu_es.html",
-					"settings":
-					{
-						"buffer_size": 1732,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/jp/src/t2s/documentation/_includes/menu_fr.html",
-					"settings":
-					{
-						"buffer_size": 1727,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/jp/src/t2s/documentation/_config.yml",
-					"settings":
-					{
-						"buffer_size": 428,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/jp/src/t2s/documentation/ADR-14.md",
-					"settings":
-					{
-						"buffer_size": 6363,
+						"buffer_size": 261,
 						"line_ending": "Unix",
-						"name": "# ADR-014 : L'authentification centralisée par un"
+						"name": "GoSublime no longer supports Sublime Text 2",
+						"read_only": true,
+						"scratch": true
 					}
 				}
 			],
@@ -551,25 +557,72 @@
 			},
 			"file_history":
 			[
+				"/tmp/photoblog/sigal.conf.py",
+				"/home/jp/src/perso/dotfiles/sublime-text-2/Packages/GoSublime/CHANGELOG.md",
+				"/home/jp/src/perso/barreverte.github.io/_config.yml",
+				"/home/jp/src/perso/barreverte.github.io/categories.html",
+				"/home/jp/src/perso/barreverte.github.io/tags.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/categorylist.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/taglist.html",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/none",
+				"/home/jp/src/perso/barreverte.github.io/_includes/article.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/header.html",
+				"/home/jp/src/perso/barreverte.github.io/css/theme.css",
+				"/home/jp/src/perso/barreverte.github.io/_includes/pageslist.html",
+				"/home/jp/src/perso/barreverte.github.io/archive.html",
+				"/home/jp/src/perso/barreverte.github.io/index.html",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/une-equipe-agile-comme-dr-house.md",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/default.html",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/le_a3_comme_outil_de_communication.md",
+				"/home/jp/src/perso/barreverte.github.io/.travis.yml",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/une-idee-dorganisation-apprenante.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/tester-les-logs-laprecision-dufeedback.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/tester-les-logs-espionner-log4j.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/tester-les-logs-assertions.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/scrum_forfait.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/roi-des-tests-automatiques.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/mesure-du-code-et-qualite.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/lencodage-des-caracteres-parent-pauvre-de-linformatique.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/le-respect-d-une-organiation-pour-les-personnes.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/ecrire-un-livre-en-5-jours-ce-que-j-ai-appris.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/des-assertions-plus-lisibles-avec-fest-assert.md",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/automatiser-une-pratique-dans-un-alias.md",
+				"/home/jp/src/perso/dotfiles/sublime-text-2/Packages/GoSublime/USAGE.md",
+				"/home/jp/src/perso/barreverte.github.io/_posts/2011-11-21-une-courte-introduction-a-redis.markdown",
+				"/home/jp/src/t2s/documentation/support-fr/MyShoppingAssistant.md",
+				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
+				"/home/jp/src/t2s/documentation/_config.yml",
+				"/home/jp/src/perso/barreverte.github.io/_drafts/fiche-lecture-droidmaker.md",
+				"/home/jp/src/perso/barreverte.github.io/Gemfile",
+				"/home/jp/src/perso/barreverte.github.io/jekyll_docker.sh",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/default_with_pagination.html",
+				"/home/jp/src/perso/barreverte.github.io/_layouts/post.html",
+				"/home/jp/src/perso/barreverte.github.io/_includes/footer.html",
+				"/home/jp/src/perso/barreverte.github.io/Gemfile.lock",
+				"/home/jp/src/perso/jpcaruana.github.io/public/css/jp.css",
+				"/tmp/Madison Island.html",
+				"/tmp/jptest/jptest.lektorproject",
+				"/home/jp/src/t2s/documentation/ADR-14.md",
+				"/home/jp/src/t2s/documentation/support-fr/Apis.md",
+				"/home/jp/src/t2s/documentation/support-es/Apis.md",
+				"/home/jp/src/t2s/documentation/support/Apis.md",
+				"/home/jp/src/t2s/documentation/_includes/menu.html",
+				"/home/jp/src/t2s/documentation/_includes/menu_es.html",
+				"/home/jp/src/t2s/documentation/_includes/menu_fr.html",
 				"/home/jp/src/t2s/documentation/index.md",
 				"/home/jp/src/t2s/documentation/support/index.md",
 				"/home/jp/src/t2s/documentation/support-fr/index.md",
-				"/home/jp/src/t2s/documentation/support-es/IntegrationOfTheTrackingOnTheWebsite.md",
-				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfTheTrackingOnTheWebsite.md",
-				"/home/jp/src/t2s/documentation/support/IntegrationOfTheTrackingOnTheWebsite.md",
-				"/home/jp/src/t2s/documentation/_config.yml",
 				"/home/jp/src/t2s/documentation/_includes/head.html",
 				"/home/jp/src/t2s/documentation/css/t2s.css",
 				"/home/jp/src/perso/jpcaruana.github.io/_layouts/default.html",
 				"/home/jp/src/t2s/t2s-js/src/header.md",
-				"/home/jp/src/perso/barreverte.github.io/css/theme.css",
 				"/home/jp/src/perso/barreverte.github.io/css/fonts.css",
 				"/home/jp/src/perso/barreverte.github.io/_posts/2014-04-22-creer-un-chroot-part-2-se-connecter.markdown",
 				"/home/jp/src/perso/barreverte.github.io/_posts/2015-08-25-optimiser-son-client-ssh.md",
-				"/home/jp/src/perso/barreverte.github.io/_includes/header.html",
 				"/home/jp/src/perso/jpcaruana.github.io/404.md",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/footer.html",
-				"/home/jp/src/perso/jpcaruana.github.io/public/css/jp.css",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/head.html",
 				"/home/jp/src/perso/jpcaruana.github.io/css/style.css",
 				"/home/jp/src/perso/jpcaruana.github.io/_includes/links.html",
@@ -590,21 +643,13 @@
 				"/home/jp/src/t2s/core/ws-auth/src/main/doc/header.md",
 				"/home/jp/src/t2s/core/scripts/mep_rabbit",
 				"/home/jp/src/perso/barreverte.github.io/_posts/2012-08-27-binomer-avec-un-clavier-dvorak-et-un-clavier-azerty.markdown",
-				"/home/jp/src/perso/barreverte.github.io/_config.yml",
 				"/home/jp/src/perso/barreverte.github.io/_includes/disqus-comments.html",
-				"/home/jp/src/perso/barreverte.github.io/_layouts/default.html",
-				"/home/jp/src/perso/barreverte.github.io/_layouts/default_with_pagination.html",
 				"/home/jp/src/perso/barreverte.github.io/_includes/sidebar.html",
 				"/home/jp/src/perso/barreverte.github.io/404.md",
 				"/home/jp/src/perso/barreverte.github.io/_includes/links-list.html",
 				"/home/jp/src/perso/barreverte.github.io/_includes/links-list.md",
-				"/home/jp/src/perso/barreverte.github.io/_drafts/fiche-lecture-droidmaker.md",
 				"/home/jp/src/perso/barreverte.github.io/about.md",
-				"/home/jp/src/perso/barreverte.github.io/_layouts/post.html",
-				"/home/jp/src/perso/barreverte.github.io/archive.html",
-				"/home/jp/src/perso/barreverte.github.io/index.html",
 				"/home/jp/src/perso/barreverte.github.io/_includes/pagination.html",
-				"/home/jp/src/perso/barreverte.github.io/_includes/footer.html",
 				"/home/jp/src/perso/barreverte.github.io/feed",
 				"/home/jp/src/perso/barreverte.github.io/archive.md",
 				"/home/jp/src/perso/barreverte.github.io/404.html",
@@ -614,7 +659,6 @@
 				"/home/jp/src/perso/barreverte.github.io/hash.txt",
 				"/home/jp/src/perso/barreverte.github.io/_drafts/etre-alerte-en-cas-de-OutOfMemoryexception.md",
 				"/home/jp/src/perso/barreverte.github.io/_drafts/optimiser-son-client-ssh.md",
-				"/home/jp/src/t2s/documentation/support-fr/Apis.md",
 				"/home/jp/src/t2s/documentation/support-fr/DataExport.md",
 				"/home/jp/src/t2s/documentation/support-fr/EmailCreation.md",
 				"/home/jp/src/t2s/documentation/support-fr/IntegrationOfRecommendationSpacesOnTheWebsite.md",
@@ -625,10 +669,6 @@
 				"/home/jp/src/t2s/documentation/_includes/header.html",
 				"/home/jp/src/t2s/documentation/_includes/header_fr.html",
 				"/home/jp/src/t2s/documentation/_includes/header_es.html",
-				"/home/jp/src/t2s/documentation/_includes/menu.html",
-				"/home/jp/src/t2s/documentation/_includes/menu_es.html",
-				"/home/jp/src/t2s/documentation/_includes/menu_fr.html",
-				"/home/jp/src/t2s/documentation/support/Apis.md",
 				"/home/jp/src/t2s/documentation/support/DataExport.md",
 				"/home/jp/src/t2s/documentation/support/EmailCreation.md",
 				"/home/jp/src/t2s/documentation/support/IntegrationOfRecommendationSpacesOnTheWebsite.md",
@@ -644,41 +684,7 @@
 				"/home/jp/src/t2s/documentation/support-fr/apicouchebasserecot2s.md",
 				"/home/jp/src/t2s/documentation/support/MagentoModuleInstallation.md",
 				"/home/jp/src/t2s/documentation/support/Support.md",
-				"/home/jp/src/t2s/documentation/_layouts/default_fr.html",
-				"/home/jp/src/t2s/documentation/_includes/menu-fr.html",
-				"/home/jp/src/t2s/documentation/index.html",
-				"/home/jp/src/t2s/documentation/support/apicouchebasserecot2s.md",
-				"/home/jp/src/t2s/documentation/support/ImplementationDuTrackingSurLeSiteMarchand.html",
-				"/home/jp/src/t2s/documentation/_layouts/default.html",
-				"/home/jp/src/t2s/documentation/_includes/begin.htm",
-				"/home/jp/src/t2s/documentation/support/Apis.html",
-				"/home/jp/src/t2s/documentation/support/CatalogXMLExport.md",
-				"/home/jp/src/t2s/documentation/support/DataExport.html",
-				"/home/jp/src/t2s/documentation/support/EmailCreation.html",
-				"/home/jp/src/perso/jpcaruana.github.io/emac/usa/usa2.tex.md",
-				"/home/jp/src/perso/jpcaruana.github.io/libre.md",
-				"/home/jp/src/perso/jpcaruana.github.io/chap1ros.md",
-				"/home/jp/src/perso/jpcaruana.github.io/chap2ros.md",
-				"/home/jp/src/perso/jpcaruana.github.io/chap3ros.md",
-				"/home/jp/src/perso/jpcaruana.github.io/emac/index.md",
-				"/home/jp/src/perso/jpcaruana.github.io/emac/usa/usa.tex.md",
-				"/home/jp/src/perso/jpcaruana.github.io/libre/libre.md",
-				"/home/jp/src/perso/jpcaruana.github.io/libre/rapport.tex",
-				"/home/jp/src/perso/jpcaruana.github.io/libre/exemples.md",
-				"/home/jp/src/perso/jpcaruana.github.io/_includes/menu.html",
-				"/home/jp/src/perso/jpcaruana.github.io/about.md",
-				"/home/jp/src/perso/jpcaruana.github.io/_config.yml",
-				"/home/jp/src/perso/jpcaruana.github.io/_includes/header.html",
-				"/home/jp/src/perso/jpcaruana.github.io/index.md",
-				"/home/jp/src/perso/jpcaruana.github.io/cv.md",
-				"/home/jp/src/perso/rust/hello_world/Cargo.toml",
-				"/home/jp/src/perso/rust/hello_world/src/main.rs",
-				"/home/jp/src/perso/rust/001/Cargo.toml",
-				"/home/jp/src/perso/rust/001/Cargo.lock",
-				"/home/jp/src/perso/rust/001/src/main.rs",
-				"/tmp/tyk/main.go",
-				"/tmp/tyk/api.go",
-				"/tmp/tyk/middleware_rate_limiting.go"
+				"/home/jp/src/t2s/documentation/_layouts/default_fr.html"
 			],
 			"find":
 			{
@@ -693,9 +699,32 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
+					"tag",
+					"tags",
+					"tag",
+					"tags",
+					"/images/",
+					"étati",
+					"trés",
+					"systéme",
+					"symptome",
+					"a3",
+					"}}\">\n",
+					"clickInWL",
+					"« | »",
+					"|",
+					"\"|\"",
+					"|",
+					"\"|\"",
+					"|",
+					"\"|\"",
+					"\"\n",
+					"prp-t2s.js",
+					"userConsent",
+					"prp-t2s.js",
 					">\n",
 					"ownload_button",
 					"article",
@@ -752,11 +781,24 @@
 					"=$"
 				],
 				"highlight": true,
-				"in_selection": false,
+				"in_selection": true,
 				"preserve_case": false,
 				"regex": false,
 				"replace_history":
 				[
+					"category",
+					"categories",
+					"category",
+					"categories",
+					"/images/droidmaker/",
+					"était",
+					"très",
+					"système",
+					"systèmes",
+					"symptôme",
+					"A3",
+					"« `|` »",
+					"\"`|`\"",
 					"{{ \"/\" | prepend: site.url }}",
 					"ô",
 					"à",
@@ -796,220 +838,58 @@
 			"groups":
 			[
 				{
-					"selected": 7,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/jp/src/t2s/documentation/support-fr/Apis.md",
+							"file": "/home/jp/src/t2s/documentation/support/IntegrationOfRecommendationSpacesOnTheWebsite.md",
 							"settings":
 							{
-								"buffer_size": 434,
+								"buffer_size": 7906,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										432,
-										432
+										3989,
+										3989
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Markdown/Markdown.tmLanguage"
+									"syntax": "Packages/Markdown/Markdown.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 1881.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/home/jp/src/t2s/documentation/support-es/Apis.md",
 							"settings":
 							{
-								"buffer_size": 437,
+								"buffer_size": 261,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										293,
-										293
+										261,
+										261
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Markdown/Markdown.tmLanguage"
+									"syntax": "Packages/GoSublime/syntax/GoSublime-9o.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/jp/src/t2s/documentation/support/Apis.md",
-							"settings":
-							{
-								"buffer_size": 419,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										212,
-										212
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Markdown/Markdown.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/jp/src/t2s/documentation/_includes/menu.html",
-							"settings":
-							{
-								"buffer_size": 1621,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1150,
-										1150
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/jp/src/t2s/documentation/_includes/menu_es.html",
-							"settings":
-							{
-								"buffer_size": 1732,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1732,
-										1732
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/home/jp/src/t2s/documentation/_includes/menu_fr.html",
-							"settings":
-							{
-								"buffer_size": 1727,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1727,
-										1727
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/home/jp/src/t2s/documentation/_config.yml",
-							"settings":
-							{
-								"buffer_size": 428,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										414,
-										414
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/YAML/YAML.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 7,
-							"file": "/home/jp/src/t2s/documentation/ADR-14.md",
-							"settings":
-							{
-								"buffer_size": 6363,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										4867,
-										4867
-									]
-								],
-								"settings":
-								{
-									"auto_name": "# ADR-014 : L'authentification centralisée par un",
-									"syntax": "Packages/Markdown/Markdown.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 1383.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -1056,6 +936,10 @@
 			{
 				"height": 100.0
 			},
+			"output.MarGo-output":
+			{
+				"height": 112.0
+			},
 			"position": "0,1,0,0,0,0,0,0,0,3840,1200",
 			"replace":
 			{
@@ -1067,6 +951,14 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"index.ht",
+						"index.html"
+					],
+					[
+						"index",
+						"index.html"
+					],
 					[
 						"buildr.builfile",
 						"buildr.buildfile"
@@ -1092,7 +984,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 352.0,
 			"status_bar_visible": true,
-			"window_id": 39,
+			"window_id": 56,
 			"workspace_name": ""
 		}
 	],
