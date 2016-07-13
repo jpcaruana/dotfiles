@@ -1,6 +1,6 @@
 [user]
 	name = Jean-Philippe CARUANA
-	email = jp@target2sell.com
+	email = jp.caruana@deepki.com
 	useconfigonly = true
 [color]
 	ui = auto
@@ -27,6 +27,7 @@
 	dc = commit -am\"[refactor] dead code\"
 	duplication = commit -am\"[refactor] dead code: duplication\"
 	format = commit -am\"[refactor] format\"
+	pep8 = commit -am\"[refactor] format: PEP8\"
 	uppercase = commit -am\"[refactor] rename: constants are upper case in java norm\"
 	drilldown = commit -am\"[refactor] format: methods drill down\"
 	lambda = commit -am\"[refactor] java8: lambdas\"

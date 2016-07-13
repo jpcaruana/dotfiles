@@ -41,6 +41,8 @@ exit_status='$(exit_code=$?; [ $exit_code -eq 0 ] || printf %s $exit_code " ")'
 if [ -f ~/prompt-git.bash ]; then
     source ~/prompt-git.bash
 fi
+
+export PS1="\[\033[38;5;2m\]jp\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;2m\]local\[$(tput sgr0)\]\[\033[38;5;15m\]:\w \\$ \[$(tput sgr0)\]"
 export PS1="\033[1;31m$exit_status\033[m$PS1"
 
 # enable color support of ls and also add handy aliases
@@ -52,6 +54,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
     alias most='most -c'
 fi
+
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -75,42 +80,8 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-. ~/.bash_t2s
-
 export LESS=-RFX
 export EDITOR=vim
 
-# alias
-alias eclipse='/opt/eclipse/eclipse'
-alias idea='/opt/idea-IU-129.713/bin/idea.sh'
-alias sublime='/opt/sublime/sublime_text'
-
-# Path
-export GOROOT=/opt/go
-export GOPATH=~/src/gopath
-export JAVA_HOME=/opt/jdk8
-export SCALA_HOME=/opt/scala
-export RUST_HOME=/opt/rust
-export SWIFT_HOME=/opt/swift
-export SBT_HOME=/opt/sbt
-export GRADLE_HOME=/opt/gradle
-export GROOVY_HOME=/opt/groovy
-export ECLIPSE_HOME=/opt/eclipse
-export IDEA_HOME=/opt/idea
-export MVN_HOME=/opt/apache-maven-3.2.2
-export HADOOP_HOME=/opt/hadoop
-export CASSANDRA_HOME=/opt/cassandra
-export DATASTAX_DEVCENTER_HOME=/opt/devcenter
-
-PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/maven/bin/:$GOROOT/bin:$SBT_HOME/bin:$ECLIPSE_HOME/bin:/$IDEA_HOME/bin:$SCALA_HOME/bin:$RUST_HOME/bin:$MVN_HOME/bin:$GOPATH/bin:$HADOOP_HOME/bin:$CASSANDRA_HOME/bin:$DATASTAX_DEVCENTER_HOME:$GRADLE_HOME/bin:$GROOVY_HOME/bin:$SWIFT_HOME/usr/bin
-
-# The next line updates PATH for the Google Cloud SDK.
-source '/opt/google-cloud-sdk/path.bash.inc'
-
-# The next line enables bash completion for gcloud.
-source '/opt/google-cloud-sdk/completion.bash.inc'
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-export GRADLE_OPTS="-Dorg.gradle.daemon=true"
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi

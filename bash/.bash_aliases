@@ -1,10 +1,10 @@
 # enable color support of ls and also add handy aliases
-if [ "$TERM" != "dumb" ]; then
-    eval "`dircolors -b`"
-    alias ls='ls --color=auto'
+#if [ "$TERM" != "dumb" ]; then
+#    eval "`dircolors -b`"
+#    alias ls='ls --color=auto'
     #alias dir='ls --color=auto --format=vertical'
     #alias vdir='ls --color=auto --format=long'
-fi
+#fi
 
 # standard
 alias l='ls -CF'
@@ -25,6 +25,7 @@ alias ..=' cd ..'
 alias current='grep current project.xml'
 alias biuldr='buildr'
 alias buidlr='buildr'
+alias htpo='htop'
 
 # git
 alias up='if [ -d .svn/ ] ; then svn update ; else git pull ; fi'
