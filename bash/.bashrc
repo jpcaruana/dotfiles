@@ -29,21 +29,15 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-# afficher l'etat du git
-function parse_git_dirty {
-  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "*"
-}
-function parse_git_branch {
-  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ [\1$(parse_git_dirty)]/"
-}
-
-exit_status='$(exit_code=$?; [ $exit_code -eq 0 ] || printf %s $exit_code " ")'
-if [ -f ~/prompt-git.bash ]; then
-    source ~/prompt-git.bash
-fi
 
 export PS1="\[\033[38;5;2m\]jp\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;2m\]local\[$(tput sgr0)\]\[\033[38;5;15m\]:\w \\$ \[$(tput sgr0)\]"
 export PS1="\033[1;31m$exit_status\033[m$PS1"
+
+
+# completion git
+source ~/.git-completion.bash
+source ~/.bash_git
+
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -73,9 +67,7 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
+# enable programmable completion features
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
