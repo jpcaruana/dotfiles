@@ -11,6 +11,7 @@ alias l='ls -CF'
 alias grep='grep --color=auto'
 
 alias ack='ack-grep'
+alias R='/Library/Frameworks/R.framework/Versions/3.2/Resources/R'
 
 # Pour les gros doigts
 alias cd..='cd ..'
