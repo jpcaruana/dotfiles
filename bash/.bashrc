@@ -66,6 +66,9 @@ alias l='ls -l'
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+if [ -f ~/.bash_deepki ]; then
+    . ~/.bash_deepki
+fi
 
 # enable programmable completion features
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
