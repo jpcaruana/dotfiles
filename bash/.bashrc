@@ -37,6 +37,8 @@ export PS1="\033[1;31m$exit_status\033[m$PS1"
 # completion git
 source ~/.git-completion.bash
 source ~/.bash_git
+source ~/.bash_pyinvoke
+source ~/.bash_fab
 
 
 # enable color support of ls and also add handy aliases
