@@ -21,6 +21,7 @@
 	showUntrackedFiles = all
 [push]
 	default = simple
+	followTags = true
 [alias]
 	last = cat-file commit HEAD
 	cm = commit -am\"[refactor] dead code\"
@@ -35,6 +36,8 @@
 	rename = commit -am\"[refactor] rename\"
   wip = commit -am\"WIP\"
 	st = status --short
+	shoz = show
+	pyll = pull
 	co = checkout
 	oc = checkout
 	br = branch -a --verbose
@@ -42,13 +45,18 @@
 	rbi = rebase --interactive
 	topo-log = log --oneline --graph --all --decorate
 	topo-log-branch = log --oneline --graph --decorate
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   mega-log = log --graph --all --pretty=format:'%C(yellow)%h -%C(auto)%d %C(bold cyan)%s %C(bold white)(%cr)%Creset %C(dim white)<%an>'  
 	k = !gitk
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
+	rollback = reset --hard HEAD^
 	count = shortlog -s -n
   rbd = rebase develop --preserve-merges
   rbm = rebase master --preserve-merges
+  sohw = show
+  whodidit = for-each-ref --format='%(color:cyan)%(authordate:format:%d/%m/%Y %I:%M %p)    %(align:25,left)%(color:yellow)%(authorname)%(end) %(color:reset)%(refname:strip=3)' --sort=authorname refs/remotes
+  whodidit-date = for-each-ref --format='%(color:cyan)%(authordate:format:%d/%m/%Y %I:%M %p)    %(align:25,left)%(color:yellow)%(authorname)%(end) %(color:reset)%(refname:strip=3)' --sort=authordate refs/remotes
 [mergetool]
 	keepBackup = false
 	keepTemporaries = false
